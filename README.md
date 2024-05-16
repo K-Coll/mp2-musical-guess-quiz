@@ -1,112 +1,499 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Name of Quiz  
 
-Welcome Katie Collins,
+Brief Intro as to what the quiz is about / what the aim is 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The site is built using HTML5, CSS3, Bootstrap v5 and JavaScript for the Milestone Project 2 for Code Institute's Diploma in Web Development.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+![Responsive Image]() I am Response
 
-## Gitpod Reminders
+[Link to Live Website]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of Contents
 
-`python3 -m http.server`
+* [User Experience (UX)](#user-experience-ux)
+  * [Strategy](#strategy)
+    * [User Stories](#user-stories)
+  * [Scope](#scope)
+  * [Structure](#structure)
+    * [Page1](#)
+    * [Page2](#c)
+    * [Page3](#)
+    * [Page 4](#)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface)
+    * [Design](#design)
+    * [Colour Scheme](#colour-scheme)
+    * [Contrast Checker](#contrast-checker)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Media](#media)
+* [Features](#features)
+  * [Site Level Elements](#site-level-elements)
+  * [Page Level Elements](#page-level-elements)
+    * [Page1](#)
+    * [Page2](#c)
+    * [Page3](#)
+    * [Page 4](#)
+* [Future Implementations](#future-implementations)
+* [Accessibility](#accessibility)
+* [Testing](#testing)
+  * [Testing User Stories](#testing-user-stories)
+  * [Validator Testing](#validator-testing)
+    * [HTML Validation](#html-validation)
+    * [CSS Validation](#css-validation)
+  * [Lighthouse](#lighthouse)
+  * [Full Testing on Devices and Browsers ](#full-testing)
+  * [Links](#links)
+  * [Contact Form](#contact-form)
+  * [Solved Bugs](#solved-bugs)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Applications Used](#applications-used)
+  * [Frameworks, Libraries and CDNs Used](#frameworks-libraries-and-CDNs)
+  * [VS Code Extensions](#vs-code-extensions)
+* [Deployment & Local Development](#deployment-local-development)
+  * [Deployment](#deployment)
+  * [Local Deployment](#local-deployment)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Credits](#credits)
+  * [Learning Resources](#learning-resources)
+  * [Content Used](#content-used)
+  * [Acknowledgements](#acknowledgements)
 
-A blue button should appear to click: _Make Public_,
+## User Experience (UX)
+### Strategy
+The Musical Guess Quiz is designed to be responsive and accessible on a range of devices. It allows users to guess which artists sang the specified lyrics.
 
-Another blue button should appear to click: _Open Browser_.
+### User Stories 
+  * #### Site Owner Goals
+    1.   
+    2. 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+  * #### First Time Visitor Goals
+    3. 
+    4. 
 
-A blue button should appear to click: _Make Public_,
+  * #### Returning Visitor Goals
+    6. 
+    7. 
+  
+  
+### Scope
+  The goal for the project is to make a response, easy to use and visually appealing interactive website.  
 
-Another blue button should appear to click: _Open Browser_.
+### Structure
+  Overall the website has four pages. These are:  
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*  **Page 1**  
+    Brief Info about page 1
 
-To log into the Heroku toolbelt CLI:
+*  **Page 2**  
+    Brief Info about page 2
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+*  **Page 3**  
+    Brief Info about page 3
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+*  **Page 4**  
+    Brief Info about page 4
+  
+### Skeleton
 
-------
+  Wireframes were created for this project using Balsamic. For each page, a wireframe was created for mobile, tablet and desktop. I tried to stick to this design as close as possible for the final project.
 
-## Release History
+<details><summary>Page 1</summary>
+<img src="">
+</details>
+<details><summary>Page 2</summary>
+<img src="">
+</details>
+<details><summary>Page 3</summary>
+<img src="">
+</details>
+<details><summary>Page 4</summary>
+<img src="">
+</details>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  ### Surface
 
-**April 26 2024:** Update node version to 16
+* #### Design
+    The overall design of the website is minimal.
+  
+      <br>
+      <details><summary>Feature </summary>
+      <img src="">
+      </details>  
+      <br>  
+      <details><summary>Feature </summary>
+      <img src="">
+      </details>  
+      <br>  
+      <details><summary>Feature </summary>
+      <img src="">
+      </details>  
+      <br>  
+      <details><summary>Feature </summary>
+      <img src="">
+      </details>  
+ 
+* #### Colour Scheme
+    The idea for the colour scheme is to keep it fresh and bright, whilst also being easy to read and understand.
 
-**September 20 2023:** Update Python version to 3.9.17.
+    The overall design of the website is minimalistic; only four main colours are used. This is purposeful so as not to take away focus on the images used within the website and also not the clash with them. The background images used have lots of complimentary colours which creates an overall cohesive and pleasing aesthetic.  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    <details><summary>Colour Palette</summary>
+    <img src="">
+    </details>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* #### Contrast Checker
+    Contrast was checked for accessibility using WebAIM's contrast checker - https://webaim.org/resources/contrastchecker/.  
+    <br>
+    Info about the contrast checker results 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    <details><summary>Contrast Checker </summary>
+    <img src="">
+    </details>
+    <details><summary>Contrast Checker </summary>
+    <img src="">
+    </details>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* #### Typography
+    Info about the fonts used and why
+    
+    Three fonts are used for this website.  
+    
+    Kalam is used for the website title / logo, for the contact link within the footer and for the submit button. Rubik is used for the menu navigation bar and the headings. Nunito Sans is used for the main body of the website.  
+    
+    Sans Serif was also used as the fall-back font throughout the entire website, if the other fonts are not working properly.  
+    
+    These fonts are accessible and were chosen because they are clear and easy to read and are popular for people who have visual or cognitive disabilities.  
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* #### Imagery
+    Explain the images used and what you wanted to create from this 
+    
+    The type of imagery used on the website is sourced from Freepik.com, specifically:  
+            * [Image](link). From author [XXX](link)  
+            * [Image](link). From author [XXX](link)  
+            * [Image](link) from author [XXX](link)  
+   
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* #### Media
+Reference any mediam font awesome icons, etc
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Site Level Elements
+* There is XXX. User Stories covered: XXX.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![XXX]()  
+<br>  
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* There is XXX. User Stories covered: XXX.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![XXX]()  
+<br>  
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Page Level Elements
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* #### Page 1
+    * There is XXX. User Stories covered: XXX.
+ 
+![XXX]()  
+<br>  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* There is XXX. User Stories covered: XXX.
 
-------
+![XXX]()  
+<br>  
 
-## FAQ about the uptime script
+* #### Page 2
+   * There is XXX. User Stories covered: XXX.
+ 
+    ![XXX]()  
+    <br>  
 
-**Why have you added this script?**
+* There is XXX. User Stories covered: XXX.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+  ![XXX]()  
+  <br> 
 
-**How will this affect me?**
+* #### Page 3 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* #### Contact
+   
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Future Implementations
+* 
+* 
+* 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Accessibility
+I have tried to ensure the website is as accessible as possible by:
+* Using semantic HTML.
+* Using descriptive alt attributes for images throughout the website.
+* Using easy to read and accessible fonts.
+* Adding aria-labels for screen readers.
+* Using a cohesive design scheme and colour contrasts to make sure the text is easy to read.
+* Using clear navigation.  
 
-**So….?**
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website meets high accessibility standards. All pages of the website passsed with zero errors.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+  <details><summary>Page 1</summary>
+  <img src="">
+  </details>  
+  <details><summary>Page 2</summary>
+  <img src="">
+  </details>  
 
-**Can I opt out?**
+## Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Testing User Stories
 
-**Anything more?**
+#### Site Owner Goals
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+1. XXX
 
----
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
 
-Happy coding!
+  
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+2. XXX      
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
+  
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+#### First Time Visitor Goals
+
+3.  XXX 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+4.  XXX 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
+
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+5.  XXX  
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
+
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+6.  XXX    
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
+
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+7.  XXXX   
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+
+### Validator Testing
+* #### HTML Validation
+    The W3C HTML Markup Validator was used to validate the HTML code of the website. 
+
+    <details><summary>Page 1</summary>
+    <img src="">
+    </details>
+    <details><summary>Page 2</summary>
+    <img src="">
+    </details>
+    <details><summary>Page 3</summary>
+    <img src="">
+    </details>
+    <details><summary>Page 4<</summary>
+    <img src="">
+    </details>
+
+* #### CSS Validation
+    The W3C Jigsaw CSS Validator was used to test the CSS code of the website.  
+
+    <details><summary>CSS Validator</summary>
+    <img src="">
+    </details>
+    <details><summary>CSS Warning</summary>
+    <img src="">
+    </details>
+
+### Lighthouse
+I tested my website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (seacrh enginer optimisation). 
+
+![Lighthouse Testing]()
+
+### Full Testing on Devices and Browsers
+  The website was tested and functioned / performed well on Chrome, Edge and Safari.  
+
+  Full testing was carried out on the following devices:
+
+  * Laptop
+    * Macbook Pro, 14 inch 2021, M1 chip
+    * Dell Latitude 7420
+
+  * Tablet
+    * iPad (7th generation)
+
+  * Mobile
+    * iPhone 11
+
+### Links
+The internal links feature in the XXXXX. All internal links have been tested and take you to the directed page within the website.
+
+| Link / Feature                  |  Test Case                      | Outcome                                                   |
+| :---------                      | :----------------               | :-----------------------------------                      |
+| XXX                             | Click on XXX                    | User is brought to XXX                                    |
+| XXX                             | Click on XXX                    | User is brought to XXX                                    |
+| XXX                             | Click on XXX                    | User is brought to the XXX                                |
+| XXX                             | Click on XXX                    | User is brought to the XXX                                |
+  
+
+### Contact Form
+* To find the form, navigate to XXXXXX
+* Fill out all the fields, including your first name, last name and a valid ‘@’ email address. 
+
+* If the form is completed properly, you will see the following message:  
+    ![form submit message]()  
+* If you try to submit without a first name or last name you will see the following message:  
+    ![fill in name message]()  
+* If you try to submit without a valid ‘@’ email address, you will see the following message:  
+    ![fill in email message]()  
+* If you try to submit a blank message without a description for your enquiry, you will see the following message:  
+    ![submit enquiry message]()  
+
+### Solved Bugs
+1.	 
+
+2.	  
+
+3.	 
+
+4.	  
+
+
+## Technologies Used
+
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [Markdown](https://en.wikipedia.org/wiki/Markdown)
+
+### Applications Used
+* Git was used for version control.  
+* [Github](https://github.com/) was used to store the code.  
+* [Gitpod](https://www.gitpod.io/) was used for the CI template and to access VS code.  
+* [VS Code](https://code.visualstudio.com/)was used as a code editor.  
+* [Balsamic](https://balsamiq.com/) was used to create Wireframes.  
+* [Image Compressor](https://imagecompressor.com) was used to decrease the dimensions and size of the images used for the website.  
+* [Convertio](https://convertio.co/) was used to convert the image file types from jpg to webp format.  
+* [Am I Responsive](https://amiresponsive.co.uk/) was used to display all the pages of the website on different devices. 
+* [W3C HTML Markup Validation](https://validator.w3.org) was used to validate the HTML code of the website.
+* [W3C Jigsaw CSS Validation](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code of the website.
+* [WebAIM Wave Accessibility](https://wave.webaim.org) was used to evaluate the accessibility of the website to ensure it is up to high standards.
+* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to check the contrast of the colours used in the design of the website.
+
+### Frameworks, Libraries and CDNSs
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) is used throughout the website for template code and responsiveness. This includes XXXXXXXXXXX. All Bootstrap elements are styled using either Bootstrap CSS or custom CSS.  
+* [Google Fonts](https://fonts.google.com/) was used to import the three fonts used into the website.  
+* [Font Awesome](https://fontawesome.com/) was used to add icons for visual representation and aesthetic purposes.  
+
+### VS Code Extensions
+* [Prettier](https://prettier.io) – was used for code formatting and code completion. 
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) – was used for live previewing the site during the build process. 
+
+
+## Deployment & Local Deployment
+  * ### Deployment
+    
+    The live website was deployed to Github Pages, by following the below instructions:
+
+    1. Log in (or sign up) to Github.
+    2. Find the repository for this project, K-Coll/mp2-musical-guess-quiz.
+    3. Click on the Settings link.
+    4. On the left hand side of the navigation bar, click on the Pages link.
+    5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+    6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+  * ### Local Deployment
+    * ### How to Fork
+      To fork the Musical Guess Quiz repository:
+
+      1. Log in (or sign up) to Github.
+      2. Go to the repository for this project, K-Coll/mp2-musical-guess-quiz.
+      3. Click the Fork button in the top right corner.
+  
+    * ### How to Clone
+      To clone the Musical Guess Quiz repository:
+
+      1. Log in (or sign up) to GitHub.
+      2. Go to the repository for this project, K-Coll/mp2-musical-guess-quiz.
+      3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+      4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+      5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Credits
+###  Learning Resources
+* [W3 Schools](https://www.w3schools.com) – used for problem solving.  
+* [Stack Overflow](https://stackoverflow.com)– for troubleshooting issues and problem solving.  
+* [Code Institute Slack Community](https://slack.com/intl/en-gb) – for problem solving and user feedback.  
+* Code Institute Love Maths Project – for inspiration / adaptation regarding .  
+* Code Institute Whisky Drop Project – for inspiration and Bootstrap grid system.  
+* Code Institue Rosie Resume – for inspiration and Bootstrap grid system.  
+* [YouTube: ]() – adapted from and inspired by
+* [XXX]() – code used.  
+* [YouTube: ]() - Code used.
+* [Article:]().  
+* [Article: ](h).  
+
+
+### Content Used
+All text content was written by the developer.  
+
+## Acknowledgements
+* My mentor Mo Shami.  
+* Kristyna my Code Institute Cohort Facilitor, who has been a wonderful support throughout the course. Also my cohort friends for their motivation and support, as well as our weekly meetings, which I look forward to attending.  
+* The Code Institute Slack Community, both directly and indirectly. I was able to search the community and find help as well as ask directly in the various channels for specific issues. This is a supportive environment and community which helped me with problem solving.  
+* My mum, family and friends for their support and encouragement.  
