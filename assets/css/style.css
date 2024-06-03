@@ -97,3 +97,14 @@ body {
 .modal::backdrop {
     background-color: rgb(210, 199, 224);
 }
+
+.modal h2 {
+    padding: 6px;
+    margin: 6px;
+}
+
+.modal p {
+    padding: 6px;
+    margin: 6px;
+    text-align: left;
+}
