@@ -44,3 +44,21 @@ body {
     font-weight: 600;
     text-align: center;
 }
+
+/* Styling of Buttons */
+.btn {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: rgb(165, 115, 212, 0.8);
+    color: white;
+}
