@@ -1,0 +1,12 @@
+/* Global site */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", sans-serif;
+    box-sizing:border-box;
+}
+
+body {
+    background: url("../images/background-image.webp") top;
+    background-size: cover;
+}
