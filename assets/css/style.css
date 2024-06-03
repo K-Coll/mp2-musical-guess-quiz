@@ -7,6 +7,20 @@
 }
 
 body {
-    background: url("../images/background-image.webp") top;
+    background: url("../images/background-image1.webp") top;
     background-size: cover;
+}
+
+/* Styling of Quiz App container */
+.app {
+    background-color: rgba(255, 209, 220, 0.5);
+    width: 90%;
+    max-width: 650px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
 }
