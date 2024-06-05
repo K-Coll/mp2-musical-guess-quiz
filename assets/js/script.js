@@ -130,7 +130,12 @@ function showScore(){
 }
 
 //* Function for if there is another question in the list, it will display this. Otherwise, if there are no more questions, it will display the score if at the end of the quiz
+//* Function also increases question counter by 1 for each question within the array
 function handleNextButton(){
+    numOfNum++;
+    if (numOfNum > 10) {
+        numOfNum = 1;
+    }
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
         showQuestion();
