@@ -58,6 +58,8 @@ function startQuiz(){
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
+    document.getElementById('num-of-num').style.display = 'block';
+    document.getElementById('num-of-num').innerHTML = `Question ${numOfNum} of ${questions.length}`;
 }
 
 //* Function to show the question number with a full stop to add visual structure and feedback for user to know which question they are on.
