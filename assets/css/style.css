@@ -137,3 +137,12 @@ body {
     margin: 10px auto 0;
     border-radius: 4px;
 }
+
+/* Styling the feedback for right and wrong answers */
+.correct{
+    background-color: #C1E1C1;
+}
+
+.incorrect{
+    background-color: #fa9187;
+}
