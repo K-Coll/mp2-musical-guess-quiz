@@ -115,6 +115,14 @@ function selectAnswer(e){
     nextButton.style.display = "block"
 }
 
+//* Function to show the score
+function showScore(){
+    resetState();
+    questionElement.innerHTML = `Well done for completing the quiz! <br><br> You answered ${score} out of ${questions.length} questions correctly!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
+
 //* Function for if there is another question in the list, it will display this. Otherwise, if there are no more questions, it will display the score if at the end of the quiz
 function handleNextButton(){
     currentQuestionIndex++;
