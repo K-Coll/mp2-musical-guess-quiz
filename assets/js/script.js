@@ -115,6 +115,16 @@ function selectAnswer(e){
     nextButton.style.display = "block"
 }
 
+//* Function for if there is another question in the list, it will display this. Otherwise, if there are no more questions, it will display the score if at the end of the quiz
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length){
+        showQuestion();
+    } else {
+        showScore();
+    }
+}
+
 //* Event listener and if / else statement to check the length of the quiz; this will either load the next question, or start the quiz again, if at the end of the questions length
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.length){
