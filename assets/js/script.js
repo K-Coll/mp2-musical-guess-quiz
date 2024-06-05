@@ -93,6 +93,10 @@ function resetState(){
 //* Function to select answer. Click on answer button, it will add selected button element then it will check selected button dataset.
 //* If the data set is true, it will add class name of correct. If the dataset is not true / false, it will add the class name of incorrect.
 //* Backgound colour will then be added depending on class name - in css
+//* For each button, it will check the dataset to see if it is true / false. Then afterwards it will disable ability to click on different buttons
+//* If answer is correct, it will also increase the score by 1
+//* It will then display the next button to move to the next question in the quiz
+
 function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -100,8 +104,15 @@ function selectAnswer(e){
         selectedBtn.classList.add("correct");
         score++;
     } else {
-        selectedBtn.classList.add("incorrect");
+        selectedBtn.class.List.add("incorrect");
     }
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+    nextButton.style.display = "block"
 }
 
 startQuiz();
