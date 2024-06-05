@@ -64,6 +64,7 @@ function startQuiz(){
 //* Function will also check to see if the answer is true or false from the dataset held within the questions array
 
 function showQuestion(){
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
@@ -74,6 +75,15 @@ function showQuestion(){
         button.classList.add("btn");
         answerButtons.appendChild(button);
     });
+}
+
+//* Function to reset and remove all previous question and answer options.
+//* This is called in the showQuestions function, in order to reset the html elements to then bring in the new questions and answers
+function resetState(){
+    nextButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
 }
 
 startQuiz();
