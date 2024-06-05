@@ -58,3 +58,13 @@ function startQuiz(){
     nextButton.innerHTML = "Next";
     showQuestion();
 }
+
+//* Function to show the question number with a full stop to add visual structure and feedback for user to know which question they are on.
+//* Function also used to increase the question index and bring in the next question. This also shows the answer options to choose from.
+//* Function will also check to see if the answer is true or false from the dataset held within the questions array
+
+function showQuestion(){
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+}
