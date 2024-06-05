@@ -163,4 +163,5 @@ nextButton.addEventListener("click", ()=>{
     }
 });
 
-startQuiz();
+// Event listener for start button to start quiz.//
+startButton.addEventListener('click', startQuiz);
