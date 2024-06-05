@@ -55,8 +55,11 @@ let numOfNum = 1;
 
 //* Functions
 
-//* Function to start quiz app, to set or re-set the score and the question index to 0. It will then call the function to show the next quesiton
+//* Function to hide menu control buttons, start quiz app, to set or re-set the score and the question index to 0. It will then call the function to show the next quesiton
 function startQuiz(){
+    startButton.classList.add("hide");
+    rulesButton.classList.add("hide");
+    questionContainer.classList.remove("hide");
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
