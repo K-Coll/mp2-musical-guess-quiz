@@ -72,7 +72,7 @@ function showQuestion(){
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-    document.getElementById('num-of-num').innerHTML = `Question ${numOfNum} of ${questions.length}`; // Quiz counter
+    document.getElementById('num-of-num').innerHTML = `Question ${numOfNum} of ${questions.length}`;
     questionElement.innerHTML = currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
