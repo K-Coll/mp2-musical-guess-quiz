@@ -72,6 +72,9 @@ function showQuestion(){
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
+    document.getElementById('num-of-num').innerHTML = `Question ${numOfNum} of ${questions.length}`; // Quiz counter
+    questionElement.innerHTML = currentQuestion.question;
+
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
