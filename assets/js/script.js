@@ -44,11 +44,14 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-let numOfNum = 1;
+const startButton = document.getElementById("start-btn");
+const questionContainer = document.getElementById("question-container");
+const rulesButton = document.getElementById("open-button");
 
 //* declare and store question index and score variables
 let currentQuestionIndex = 0;
 let score = 0;
+let numOfNum = 1;
 
 //* Functions
 
