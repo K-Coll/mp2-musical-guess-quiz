@@ -16,15 +16,12 @@
     <title>Musical Guess Quiz!</title>
 </head>
 <body>
-    <!--Main Quiz app container-->
+<!--Main Quiz app container-->
     <div class="container app">
         <!--Welcome container with title of quiz-->
         <div id="welcome-container">
             <h1>Musical Guess!</h1>
         </div>
-
-        <!--Quiz Heads Up Display-->
-        
         <!--Question container to house actual quiz question and the four possible answer buttons-->
         <div id="question-container" class="quiz hide">
             <h2 id="question">Question</h2>
@@ -34,16 +31,16 @@
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
             </div>
+        </div>
         <!--Controls container to house the start, how to play and next buttons-->
-            <div class="controls">
-                <button id="start-btn" class="start-btn btn">Start</button>
-                <button id="open-button" class="aim-btn btn open-button">How to Play</button>
-                <button id="next-btn" class="next-btn btn hide">Next</button>
-            </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="open-button" class="aim-btn btn open-button">How to Play</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
     </div>
 
-    <!--How to Play Modal inspired by and adapated from two youtube tutorials - https://youtu.be/JuLBQXERz8Y?si=SIWko1vAvb1OhP4p and https://youtu.be/ywtkJkxJsdg?si=tN05nAscKowR-hkd --> 
+        <!--How to Play Modal inspired by and adapated from two youtube tutorials - https://youtu.be/JuLBQXERz8Y?si=SIWko1vAvb1OhP4p and https://youtu.be/ywtkJkxJsdg?si=tN05nAscKowR-hkd --> 
         <dialog class="modal" id="modal">
             <h2>Test your pop music knowledge!</h2>
             <p>You will be presented with the lyrics from a well-known pop song. The aim of the quiz is to correctly identify the song title and artist from the four available options.</p>
