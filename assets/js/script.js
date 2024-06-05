@@ -52,7 +52,7 @@ let score = 0;
 
 //* Functions
 
-//* Function to start quiz pp, to set or re-set the score and the question index to 0. It will then call the function to show the next quesiton
+//* Function to start quiz app, to set or re-set the score and the question index to 0. It will then call the function to show the next quesiton
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
@@ -118,7 +118,7 @@ function selectAnswer(e){
         }
         button.disabled = true;
     });
-    nextButton.style.display = "block"
+    nextButton.style.display = "block";
 }
 
 //* Function to show the score
@@ -132,8 +132,9 @@ function showScore(){
     document.getElementById('num-of-num').style.display = 'none';
 }
 
-//* Function for if there is another question in the list, it will display this. Otherwise, if there are no more questions, it will display the score if at the end of the quiz
-//* Function also increases question counter by 1 for each question within the array
+//* Function includes if statement for if there is another question in the list, it will display this. Otherwise, if there are no more questions, it will display the score if at the end of the quiz
+//* Function increases question counter by 1 for each question within the array.
+//* Function includes if statement which resets the question counter - when it gets to question ten, start again at question 1. Quiz only has 10 questions, so when the user restarts, it will reset the question counter back to 1 of 10.
 function handleNextButton(){
     numOfNum++;
     if (numOfNum > 10) {
