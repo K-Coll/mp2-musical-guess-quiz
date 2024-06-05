@@ -39,6 +39,7 @@ const questions = [
 ];
 
 //*Declare Variables
+
 //* declare variables for the question, answer options and controls button
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -47,3 +48,13 @@ const nextButton = document.getElementById("next-btn");
 //* declare and store question index and score variables
 let currentQuestionIndex = 0;
 let score = 0;
+
+//* Functions
+
+//* Function to start quiz app, to set or re-set the score and the question index to 0. It will then call the function to show the next quesiton
+function startQuiz(){
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+}
