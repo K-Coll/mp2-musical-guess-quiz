@@ -61,7 +61,7 @@ body {
     border-radius: 4px;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
     background-color: rgb(165, 115, 212, 0.8);
     color: white;
 }
