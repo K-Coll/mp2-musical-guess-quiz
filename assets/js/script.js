@@ -1,0 +1,39 @@
+//* add code to declare variables for questions to use within the quiz
+const questions = [
+    {
+        question: "Just a small town girl / Livin' in a lonely world / She took the midnight train going anywhere",
+        answers: [
+            { text: "Don't Stop Believin - Journey", correct: true},
+            { text: "Imagine - John Lennon", correct: false},
+            { text: "Hey Jude - The Beatles", correct: false},
+            { text: "Don’t Let Me Go - The Click Five", correct: false},
+        ]
+    },
+    {
+        question: "One taught me love / One taught me patience / And one taught me pain / Now, I'm so amazing",
+        answers: [
+            { text: "Thank U, Next - Ariana Grande", correct: true},
+            { text: "New Rules - Dua Lipa", correct: false},
+            { text: "The Climb - Miley Cyrus", correct: false},
+            { text: "Blinding Lights - The Weeknd", correct: false},
+        ]
+    },
+    {
+        question: "When you leave, I'm begging you not to go / Call your name two, three times in a row",
+        answers: [
+            { text: "Diamonds - Rihanna", correct: false},
+            { text: "Crazy in Love - Beyoncé", correct: true},
+            { text: "Call Me Maybe - Carly Rae Jepsen", correct: false},
+            { text: "Stay With Me - Sam Smith", correct: false},
+        ] 
+    },
+    {
+        question: "You promised the world and I fell for it / I put you first and you adored it / Set fires to my forest / And you let it burn",
+        answers: [
+            { text: "I Knew You Were Trouble - Taylor Swift", correct: false},
+            { text: "Circles - Post Malone", correct: false},
+            { text: "Wrecking Ball - Miley Cyrus", correct: false},
+            { text: "Lose You to Love Me - Selena Gomez", correct: true},
+        ] 
+    },
+];
