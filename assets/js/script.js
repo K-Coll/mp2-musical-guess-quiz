@@ -51,7 +51,7 @@ let score = 0;
 
 //* Functions
 
-//* Function to start quiz app, to set or re-set the score and the question index to 0. It will then call the function to show the next quesiton
+//* Function to start quiz pp, to set or re-set the score and the question index to 0. It will then call the function to show the next quesiton
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
@@ -75,3 +75,5 @@ function showQuestion(){
         answerButtons.appendChild(button);
     });
 }
+
+startQuiz();
