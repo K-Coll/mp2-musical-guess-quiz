@@ -104,7 +104,7 @@ function selectAnswer(e){
         selectedBtn.classList.add("correct");
         score++;
     } else {
-        selectedBtn.class.List.add("incorrect");
+        selectedBtn.classList.add("incorrect");
     }
     Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true"){
