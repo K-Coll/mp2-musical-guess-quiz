@@ -44,6 +44,7 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+let numOfNum = 1;
 
 //* declare and store question index and score variables
 let currentQuestionIndex = 0;
