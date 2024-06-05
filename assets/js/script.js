@@ -37,3 +37,9 @@ const questions = [
         ] 
     },
 ];
+
+//*Declare Variables
+//* declare variables for the question, answer options and controls button
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
