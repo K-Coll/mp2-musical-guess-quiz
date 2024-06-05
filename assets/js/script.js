@@ -102,7 +102,6 @@ function selectAnswer(e){
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect){
         selectedBtn.classList.add("correct");
-        score++;
     } else {
         selectedBtn.classList.add("incorrect");
     }
@@ -114,5 +113,14 @@ function selectAnswer(e){
     });
     nextButton.style.display = "block"
 }
+
+//* Event listener and if / else statement to check the length of the quiz; this will either load the next question, or start the quiz again, if at the end of the questions length
+nextButton.addEventListener("click", ()=>{
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+});
 
 startQuiz();
