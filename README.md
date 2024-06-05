@@ -1,12 +1,12 @@
-# Name of Quiz  
+# Musical Guess!  
 
-Brief Intro as to what the quiz is about / what the aim is 
+Welcome to the Musical Guess Quiz! This quiz was created for users to have some musical fun and to test their knowledge of well-known pop music songs, by trying to guess the song title and artist from the lyrics presented.
 
-The site is built using HTML5, CSS3, Bootstrap v5 and JavaScript for the Milestone Project 2 for Code Institute's Diploma in Web Development.
+It has been built using HTML5, CSS3 and JavaScript to allow the user to interact with the website in an engaging way and it was created for the Milestone Project 2 for Code Institute's Diploma in Web Development.
 
 ![Responsive Image]() I am Response
 
-[Link to Live Website]()
+[Link to Live Website](https://k-coll.github.io/mp2-musical-guess-quiz/)
 
 ## Table of Contents
 
@@ -63,92 +63,66 @@ The site is built using HTML5, CSS3, Bootstrap v5 and JavaScript for the Milesto
 
 ## User Experience (UX)
 ### Strategy
-The Musical Guess Quiz is designed to be responsive and accessible on a range of devices. It allows users to guess which artists sang the specified lyrics.
+The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows users to guess which artists sang the specified lyrics.
 
 ### User Stories 
   * #### Site Owner Goals
-    1.   
-    2. 
+    1.   For users to play a fun and engaging online quiz to test their musical knowledge by guessing the song title and artist from the lyric presented.
+    2. For the user to see their progress and to see how many questions they have completed.
+    3. For the users score to be added up and for them to see their final score the end.
+    4. To allow the user to try the quiz again and to reload the questions to try and beat their score.
 
   * #### First Time Visitor Goals
-    3. 
-    4. 
-
-  * #### Returning Visitor Goals
-    6. 
-    7. 
-  
+    5. I want to test my musical knowledge by guessing the song title and artist from the lyric presented.
+    6. I want to see my progress throughout the quiz.
+    7. I want to know the aim of the quiz / how to play.
+    8. I want to see if I get the answers correct or not.
+    9. I want to know what my final score is at the end, once I’ve completed the quiz.
+    10. I’d like to be able to play again to beat my score.
   
 ### Scope
-  The goal for the project is to make a response, easy to use and visually appealing interactive website.  
+  The goal for the project is to make an easy to use and visually appealing interactive website.  
 
 ### Structure
-  Overall the website has four pages. These are:  
-
-*  **Page 1**  
-    Brief Info about page 1
-
-*  **Page 2**  
-    Brief Info about page 2
-
-*  **Page 3**  
-    Brief Info about page 3
-
-*  **Page 4**  
-    Brief Info about page 4
+  The quiz website has one page which houses the entire quiz - from the menu with the start button and how to play button/modal, to the quiz container housing the question and answers and next button, to the results section displaying the number of correctly answered questions and the play again button. The interactivity and functionality throughout the quiz is completed using JavaScript.   
   
 ### Skeleton
 
-  Wireframes were created for this project using Balsamic. For each page, a wireframe was created for mobile, tablet and desktop. I tried to stick to this design as close as possible for the final project.
+  Wireframes were created using Balsamic for Mobile, Tablet and Desktop. I tried to stick to this design as close as possible for the final project. However, I added lots of features into the wireframes as I was aiming high for this project; which turned out to be quite ambitious during the build phase. JavaScript has been difficult and challenging for me to learn and I ran out of time towards the end as the deadline was approaching. I therefore downscaled my project throughout the building process to be able to do better with less elements, whilst also showcasing the JavaScript that I had learnt along the way. I had added the elements I was not able to create into my ‘Future Implementations’ section. With additional time, research, practice and learning, I am confident that I can execute these additional features in the future.
 
-<details><summary>Page 1</summary>
+<details><summary>Mobile</summary>
 <img src="">
 </details>
-<details><summary>Page 2</summary>
+<details><summary>Tablet</summary>
 <img src="">
 </details>
-<details><summary>Page 3</summary>
-<img src="">
-</details>
-<details><summary>Page 4</summary>
+<details><summary>Desktop</summary>
 <img src="">
 </details>
 
   ### Surface
 
 * #### Design
-    The overall design of the website is minimal.
+    The overall design of the website is minimal. This is purposeful, as I did not want to distract from the content, which still needed to be readable and understandable. There was also an iterative design process of the quiz; as I downscaled the features, I had to redesign in order to prioritise what features were to be included and what were to be future implementations.
   
-      <br>
-      <details><summary>Feature </summary>
-      <img src="">
-      </details>  
-      <br>  
-      <details><summary>Feature </summary>
-      <img src="">
-      </details>  
-      <br>  
-      <details><summary>Feature </summary>
-      <img src="">
-      </details>  
-      <br>  
-      <details><summary>Feature </summary>
-      <img src="">
-      </details>  
- 
 * #### Colour Scheme
-    The idea for the colour scheme is to keep it fresh and bright, whilst also being easy to read and understand.
-
-    The overall design of the website is minimalistic; only four main colours are used. This is purposeful so as not to take away focus on the images used within the website and also not the clash with them. The background images used have lots of complimentary colours which creates an overall cohesive and pleasing aesthetic.  
+    The idea for the colour scheme is to keep it fresh and bright, whilst also being easy to read and understand. I wanted it to still be in keeping with the fun nature of the pop music genre which the quiz is based upon.
+    
+    The background image used is clean and minimalistic, whilst also being colourful. The main colours used were chosen to tie in with and compliment the background image, as it has lots of complimentary colours which creates an overall cohesive and pleasing aesthetic. 
 
     <details><summary>Colour Palette</summary>
     <img src="">
     </details>
 
 * #### Contrast Checker
-    Contrast was checked for accessibility using WebAIM's contrast checker - https://webaim.org/resources/contrastchecker/.  
-    <br>
-    Info about the contrast checker results 
+    Contrast was checked for accessibility using [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
+        <br>
+      The overall contrast for the website is good. I have picked out a couple of elements to showcase this:    
+    
+    The contrast for the main body of the quiz website (which is the background colour for the main quiz app container, against the text colour for the title, question and answers) is
+    
+    The contrast for the Next button is
+     
 
     <details><summary>Contrast Checker </summary>
     <img src="">
@@ -169,58 +143,68 @@ The Musical Guess Quiz is designed to be responsive and accessible on a range of
     These fonts are accessible and were chosen because they are clear and easy to read and are popular for people who have visual or cognitive disabilities.  
 
 * #### Imagery
-    Explain the images used and what you wanted to create from this 
+    There is only one image used within the website, and this is the background image. I chose this image as it is clean and minimalistic, whilst also being colourful. It represents the fun and bright nature of the pop music genre that the quiz is based upon. It is also the basis of the complimentary colour palette, which creates an overall cohesive and pleasing aesthetic.
+        
+    The imagery used on the website is sourced from Freepik.com, specifically:  
+      * [Background Image]( https://www.freepik.com/free-vector/colorful-musical-notes-background-pentagram-style_39455899.htm#fromView=search&page=2&position=6&uuid=a91be3d6-b1cc-45fc-91df-65f15d4f81ea). From author [Starline]( https://www.freepik.com/author/starline)  
     
-    The type of imagery used on the website is sourced from Freepik.com, specifically:  
-            * [Image](link). From author [XXX](link)  
-            * [Image](link). From author [XXX](link)  
-            * [Image](link) from author [XXX](link)  
-   
-
-* #### Media
-Reference any mediam font awesome icons, etc
 
 ## Features
 
-### Site Level Elements
-* There is XXX. User Stories covered: XXX.
-
-![XXX]()  
-<br>  
-
-* There is XXX. User Stories covered: XXX.
-
-![XXX]()  
-<br>  
-
-### Page Level Elements
-
-* #### Page 1
-    * There is XXX. User Stories covered: XXX.
+* #### Quiz Title
+  * The Quiz title is a static element and is visible on the page throughout the entirety of the quiz. This is to ensure the branding of the quiz and to let users know what the quiz is about when they first visit the website. User Stories covered: 1, 5.
  
-![XXX]()  
-<br>  
+  ![XXX]()  
+  <br>  
 
-* There is XXX. User Stories covered: XXX.
-
-![XXX]()  
-<br>  
-
-* #### Page 2
-   * There is XXX. User Stories covered: XXX.
+* #### Menu Controls / Start Button / How to Play Button
+  * The menu control area is the initial navigation for the quiz and is intuitive. It houses the start button and the how to play button that links to the rules modal. This is the first thing the user sees when they enter the website. When the user clicks the start button, the quiz is initialised. User Stories covered: 1, 5, 7.
  
-    ![XXX]()  
-    <br>  
+  ![XXX]()  
+  <br>  
 
-* There is XXX. User Stories covered: XXX.
+* #### How to Play Modal 
+  * Within the controls area, there is a "How to Play" button. This prompts the user to click it and When this happens, the rules modal opens and is closed by clicking the close button. This explains the aim of the quiz, how the question is going to be presented, how many answers options there will be, what results the user will be given at the end, the ability to try again and a recommendation to play with their friends to beat their scores. User Stories covered: 7.
 
+  ![XXX]()  
+  <br>
+
+* #### Main Quiz Area 
+  * This is a box that has a pink background with opacity, so the background image is visible. It houses the following elements: the menu controls, the question counter, the actual quiz question / lyrics, the answer options to choose from and the next button. It also displays the results of the quiz once it is completed and the play again button. User Stories covered: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+  
+  ![XXX]()  
+  <br> 
+  
+* #### Question Counter
+  * The question counter starts at 1 and increments upward as each new question is loaded. This provides visual feedback to the user regarding their progress through the quiz, so they know what question they are on and how many questions are left. User Stories covered: 2, 6.
+  
+  ![XXX]()  
+  <br>
+
+* #### Question / Lyric
+  * The question area show the presented song lyric, which acts as the question as this is what the user needs to identify the song title and artists from the answer options. There are 10 questions to answer in total. User Stories covered: 1, 5.
+  
+  ![XXX]()  
+  <br>
+
+* #### Answer Options
+  * There are four answer options for every question. These are presented in a box/button format and have a hover effect. The user only gets one chance to answer the question; after the user has chosen their answer, they are unable to select other options, live feedback is provided regarding if the answer is right or wrong and the Next button is also display, allowing the user to move on to the next question in the quiz. User Stories covered: 1, 5, 8.
+  
+  ![XXX]()  
+  <br>
+
+* #### Right / Wrong Answer Feedback
+  * Once the user has selected their answer, they are provided with live feedback regarding if the answer is correct or not. The background colour of the answer button will change to green if correct and red if incorrect. If the answer is incorrect, the correct answer will also be displayed. This also links in with the score incrementation; if the answer is correct, points are added to their score (1 point for each correct answer). If the answer is incorrect, no points are added. User Stories covered: 1, 3, 5, 6, 8, 9.
+  
   ![XXX]()  
   <br> 
 
-* #### Page 3 
-
-* #### Contact
+* #### Results
+   * Once the user has completed all 10 questions, the results are displayed. There is a congratulations message for completing the quiz, along with how many questions out of 10 they answered correctly. The user also has the option to the play the quiz again. User Stories covered: 3, 4, 9, 10.
    
+  ![XXX]()  
+  <br> 
+
 
 ## Future Implementations
 * 
