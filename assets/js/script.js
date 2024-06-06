@@ -49,7 +49,7 @@ const questions = [
         question: "I gave my all for you, Now my heart's in two, And I can't find the other half",
         answers: [
             { text: "S.O.S - The Jonas Brothers", correct: true},
-            { text: "That's The Truth - McFlys", correct: false},
+            { text: "That's The Truth - McFly", correct: false},
             { text: "Hey Jude - The Beatles", correct: false},
             { text: "Sunny Days - The Wanted", correct: false},
         ] 
