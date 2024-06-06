@@ -38,6 +38,7 @@ body {
 }
 
 .quiz h2 {
+    font-family: "Libre Baskerville", sans-serif;
     font-size: 1.25rem;
     color: #001e4d;
     font-weight: 600;
