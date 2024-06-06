@@ -195,9 +195,16 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
 
 
 ## Future Implementations
-* 
-* 
-*   
+
+As previously mentioned, I had to downscale the features that I wanted to include and it would be nice to add in these elements and functionality.
+
+*   Question bank and shuffle feature. Ideally, I would like to implement a bank of 20 – 30 questions. I would then shuffle the questions in the bank and only pull out 10 questions into the quiz itself for the user to answer. This would add more engagement and variety to the quiz, so each time the user plays it is different and they don’t get bored.
+
+*   Timer. The user would have 90 seconds to answer 10 questions and the timer itself would start at 90s and count backwards; this would add some suspense to the quiz. If the user had not completed the quiz before the time ran out, as message would pop up and advise them of this. It would then display the results page with how many questions they answered correctly and the time it took them to complete the quiz.
+
+*    Username and leader board for the top 10 players. This would include their scores and the time it had taken to complete the quiz.
+
+*   Contact form where users can send in suggestions for improvements to the quiz. This would be connected to email.js so that when a user submits the form, it is emailed to the developer to act upon.
 
 ## Testing
 
