@@ -15,10 +15,6 @@ It has been built using HTML5, CSS3 and JavaScript to allow the user to interact
     * [User Stories](#user-stories)
   * [Scope](#scope)
   * [Structure](#structure)
-    * [Page1](#)
-    * [Page2](#c)
-    * [Page3](#)
-    * [Page 4](#)
   * [Skeleton](#skeleton)
   * [Surface](#surface)
     * [Design](#design)
@@ -26,16 +22,8 @@ It has been built using HTML5, CSS3 and JavaScript to allow the user to interact
     * [Contrast Checker](#contrast-checker)
     * [Typography](#typography)
     * [Imagery](#imagery)
-    * [Media](#media)
 * [Features](#features)
-  * [Site Level Elements](#site-level-elements)
-  * [Page Level Elements](#page-level-elements)
-    * [Page1](#)
-    * [Page2](#c)
-    * [Page3](#)
-    * [Page 4](#)
 * [Future Implementations](#future-implementations)
-* [Accessibility](#accessibility)
 * [Testing](#testing)
   * [Testing User Stories](#testing-user-stories)
   * [Validator Testing](#validator-testing)
@@ -209,25 +197,7 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
 ## Future Implementations
 * 
 * 
-* 
-
-## Accessibility
-I have tried to ensure the website is as accessible as possible by:
-* Using semantic HTML.
-* Using descriptive alt attributes for images throughout the website.
-* Using easy to read and accessible fonts.
-* Adding aria-labels for screen readers.
-* Using a cohesive design scheme and colour contrasts to make sure the text is easy to read.
-* Using clear navigation.  
-
-The WAVE WebAIM web accessibility evaluation tool was used to ensure the website meets high accessibility standards. All pages of the website passsed with zero errors.
-
-  <details><summary>Page 1</summary>
-  <img src="">
-  </details>  
-  <details><summary>Page 2</summary>
-  <img src="">
-  </details>  
+*   
 
 ## Testing
 
