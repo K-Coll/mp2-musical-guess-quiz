@@ -36,6 +36,60 @@ const questions = [
             { text: "Lose You to Love Me - Selena Gomez", correct: true},
         ] 
     },
+    {
+        question: "So do us all a favour / Would you find somebody else to blame / 'Cause your words are like bullets and I'm the way your weapons aim",
+        answers: [
+            { text: "Burnin' Up - The Jonas Brothers", correct: false},
+            { text: "Who's David - Busted", correct: false},
+            { text: "Lies - McFly", correct: true},
+            { text: "Toxic - Britney Spears", correct: false},
+        ] 
+    },
+    {
+        question: "I gave my all for you / Now my heart's in two / And I can't find the other half",
+        answers: [
+            { text: "S.O.S - The Jonas Brothers", correct: true},
+            { text: "Hey Jude - The Beatles", correct: false},
+            { text: "That's The Truth - McFly", correct: false},
+            { text: "Sunny Days - The Wanted", correct: false},
+        ] 
+    },
+    {
+        question: "Maybe I'm dancing in the dark / With you between my arms / Barefoot on the grass / While listenin' to our favourite song",
+        answers: [
+            { text: "Unwritten - Natasha Bedingfield", correct: false},
+            { text: "Perfect - Ed Sheeran", correct: true},
+            { text: "Stay With Me - Sam Smith", correct: false},
+            { text: "Counting Stars - One Republic", correct: false},
+        ] 
+    },
+    {
+        question: "Come on, come on, turn the radio on / It's Friday night and I won't be long / Gotta do my hair, put my make up on",
+        answers: [
+            { text: "Just Dance - Lady Gaga", correct: false},
+            { text: "Royals - Lorde", correct: false},
+            { text: "Diamonds - Rihanna", correct: false},
+            { text: "Cheap Thrills - Sia", correct: true,}
+        ] 
+    },
+    {
+        question: "Remember those walls I built? / Well, baby, they're tumbling down / And they didn't even put up a fight",
+        answers: [
+            { text: "Halo - Beyoncé", correct: true},
+            { text: "Bleeding Love - Leona Lewis", correct: false},
+            { text: "Battlefield - Jordin Sparks", correct: false},
+            { text: "Chandelier - Sia", correct: false,}
+        ] 
+    },
+    {
+        question: "If you gave me a chance, I would take it / It's a shot in the dark, but I'll make it",
+        answers: [
+            { text: "Talking to the Moon - Bruno Mars", correct: false},
+            { text: "Rather Be - Clean Bandit feat. Jess Glynne", correct: true},
+            { text: "Battlefield - Jordin Sparks", correct: false},
+            { text: "I'm Yours - Jason Mraz", correct: false,}
+        ] 
+    },
 ];
 
 //*Declare Variables
