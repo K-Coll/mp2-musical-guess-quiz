@@ -41,16 +41,16 @@ const questions = [
         answers: [
             { text: "Burnin' Up - The Jonas Brothers", correct: false},
             { text: "Who's David - Busted", correct: false},
-            { text: "Lies - McFly", correct: true},
             { text: "Toxic - Britney Spears", correct: false},
+            { text: "Lies - McFly", correct: true},
         ] 
     },
     {
         question: "I gave my all for you, Now my heart's in two, And I can't find the other half",
         answers: [
             { text: "S.O.S - The Jonas Brothers", correct: true},
+            { text: "That's The Truth - McFlys", correct: false},
             { text: "Hey Jude - The Beatles", correct: false},
-            { text: "That's The Truth - McFly", correct: false},
             { text: "Sunny Days - The Wanted", correct: false},
         ] 
     },
@@ -76,9 +76,9 @@ const questions = [
         question: "Remember those walls I built?, Well, baby, they're tumbling down, And they didn't even put up a fight",
         answers: [
             { text: "Halo - Beyoncé", correct: true},
-            { text: "Bleeding Love - Leona Lewis", correct: false},
+            { text: "Chandelier - Sia", correct: false},
             { text: "Battlefield - Jordin Sparks", correct: false},
-            { text: "Chandelier - Sia", correct: false,}
+            { text: "Bleeding Love - Leona Lewis", correct: false,}
         ] 
     },
     {
