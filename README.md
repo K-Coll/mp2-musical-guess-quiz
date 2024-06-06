@@ -432,10 +432,9 @@ The internal links feature in the XXXXX. All internal links have been tested and
 * [YouTube: How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial by Brian Design]( https://youtu.be/f4fB9Xg2JEY?si=Ei3U5hV8oxEPSp-J) – I completed this walkthrough YouTube tutorial to help aid my understanding of how to put a quiz together.  
 
 ### Content Used
-All text content was written by the developer.  
+All text content was written by the developer. The song lyrics presented within the questions were written by their artists / song writers and not the developer.   
 
 ## Acknowledgements
-* My mentor Mo Shami.  
-* Kristyna my Code Institute Cohort Facilitor, who has been a wonderful support throughout the course. Also my cohort friends for their motivation and support, as well as our weekly meetings, which I look forward to attending.  
-* The Code Institute Slack Community, both directly and indirectly. I was able to search the community and find help as well as ask directly in the various channels for specific issues. This is a supportive environment and community which helped me with problem solving.  
-* My mum, family and friends for their support and encouragement.  
+Kristyna, my Code Institute Cohort Facilitator, who has been a wonderful support throughout the course. Also, my cohort friends for their motivation and support, as well as our weekly meetings, which I look forward to attending.  
+
+My mum, family and friends for their support and encouragement. I did most of the research writing of the code for this project on my family summer holiday to Portugal. Thank you for being patient with me and for bringing me cups to tea!  
