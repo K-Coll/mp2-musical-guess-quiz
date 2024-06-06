@@ -25,7 +25,6 @@ body {
     padding: 20px 0;
 }
 
-
 /* Styling of Headings */
 .app h1 {
     font-family: "Freeman", sans-serif;
@@ -37,7 +36,6 @@ body {
     text-align: center;
     border-bottom: 1px dashed #001e4d;
 }
-
 
 .quiz h2 {
     font-size: 1.25rem;
@@ -130,11 +128,13 @@ body {
     font-family: "Freeman", sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
+    color: #001e4d;
     padding: 6px;
     margin: 6px;
 }
 
 .modal p {
+    color: #001e4d;
     padding: 6px;
     margin: 6px;
     text-align: left;
