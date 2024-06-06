@@ -8,9 +8,9 @@ const closeModal = document.querySelector('.close-button');
 // Open Modal
 openModal.addEventListener('click', () => {
     modal.showModal();
-})
+});
 
 // Close Modal
 closeModal.addEventListener('click', () => {
     modal.close();
-})
+});
