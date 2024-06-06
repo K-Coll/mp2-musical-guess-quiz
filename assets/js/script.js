@@ -1,7 +1,7 @@
 //* add code to declare variables for questions to use within the quiz
 const questions = [
     {
-        question: "Just a small town girl / Livin' in a lonely world / She took the midnight train going anywhere",
+        question: "Just a small town girl, Livin' in a lonely world, She took the midnight train going anywhere",
         answers: [
             { text: "Don't Stop Believin - Journey", correct: true},
             { text: "Imagine - John Lennon", correct: false},
@@ -10,7 +10,7 @@ const questions = [
         ]
     },
     {
-        question: "One taught me love / One taught me patience / And one taught me pain / Now, I'm so amazing",
+        question: "One taught me love, One taught me patience, And one taught me pain, Now, I'm so amazing",
         answers: [
             { text: "Thank U, Next - Ariana Grande", correct: true},
             { text: "New Rules - Dua Lipa", correct: false},
@@ -19,7 +19,7 @@ const questions = [
         ]
     },
     {
-        question: "When you leave, I'm begging you not to go / Call your name two, three times in a row",
+        question: "When you leave, I'm begging you not to go, Call your name two, three times in a row",
         answers: [
             { text: "Diamonds - Rihanna", correct: false},
             { text: "Crazy in Love - Beyoncé", correct: true},
@@ -28,7 +28,7 @@ const questions = [
         ] 
     },
     {
-        question: "You promised the world and I fell for it / I put you first and you adored it / Set fires to my forest / And you let it burn",
+        question: "You promised the world and I fell for it, I put you first and you adored it, Set fires to my forest, And you let it burn",
         answers: [
             { text: "I Knew You Were Trouble - Taylor Swift", correct: false},
             { text: "Circles - Post Malone", correct: false},
@@ -37,7 +37,7 @@ const questions = [
         ] 
     },
     {
-        question: "So do us all a favour / Would you find somebody else to blame / 'Cause your words are like bullets and I'm the way your weapons aim",
+        question: "So do us all a favour, Would you find somebody else to blame, 'Cause your words are like bullets and I'm the way your weapons aim",
         answers: [
             { text: "Burnin' Up - The Jonas Brothers", correct: false},
             { text: "Who's David - Busted", correct: false},
@@ -46,7 +46,7 @@ const questions = [
         ] 
     },
     {
-        question: "I gave my all for you / Now my heart's in two / And I can't find the other half",
+        question: "I gave my all for you, Now my heart's in two, And I can't find the other half",
         answers: [
             { text: "S.O.S - The Jonas Brothers", correct: true},
             { text: "Hey Jude - The Beatles", correct: false},
@@ -55,7 +55,7 @@ const questions = [
         ] 
     },
     {
-        question: "Maybe I'm dancing in the dark / With you between my arms / Barefoot on the grass / While listenin' to our favourite song",
+        question: "Maybe I'm dancing in the dark, With you between my arms, Barefoot on the grass, While listenin' to our favourite song",
         answers: [
             { text: "Unwritten - Natasha Bedingfield", correct: false},
             { text: "Perfect - Ed Sheeran", correct: true},
@@ -64,7 +64,7 @@ const questions = [
         ] 
     },
     {
-        question: "Come on, come on, turn the radio on / It's Friday night and I won't be long / Gotta do my hair, put my make up on",
+        question: "Come on, come on, turn the radio on, It's Friday night and I won't be long, Gotta do my hair, put my make up on",
         answers: [
             { text: "Just Dance - Lady Gaga", correct: false},
             { text: "Royals - Lorde", correct: false},
@@ -73,7 +73,7 @@ const questions = [
         ] 
     },
     {
-        question: "Remember those walls I built? / Well, baby, they're tumbling down / And they didn't even put up a fight",
+        question: "Remember those walls I built?, Well, baby, they're tumbling down, And they didn't even put up a fight",
         answers: [
             { text: "Halo - Beyoncé", correct: true},
             { text: "Bleeding Love - Leona Lewis", correct: false},
@@ -82,7 +82,7 @@ const questions = [
         ] 
     },
     {
-        question: "If you gave me a chance, I would take it / It's a shot in the dark, but I'll make it",
+        question: "If you gave me a chance, I would take it, It's a shot in the dark, but I'll make it",
         answers: [
             { text: "Talking to the Moon - Bruno Mars", correct: false},
             { text: "Rather Be - Clean Bandit feat. Jess Glynne", correct: true},
