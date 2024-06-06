@@ -36,8 +36,7 @@ It has been built using HTML5, CSS3 and JavaScript to allow the user to interact
   * [Solved Bugs](#solved-bugs)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Applications Used](#applications-used)
-  * [Frameworks, Libraries and CDNs Used](#frameworks-libraries-and-CDNs)
+  * [Applications, Frameworks and Libraries Used](#Applications, Frameworks and Libraries Used)
   * [VS Code Extensions](#vs-code-extensions)
 * [Deployment & Local Development](#deployment-local-development)
   * [Deployment](#deployment)
@@ -348,20 +347,7 @@ The internal links feature in the XXXXX. All internal links have been tested and
 | XXX                             | Click on XXX                    | User is brought to XXX                                    |
 | XXX                             | Click on XXX                    | User is brought to the XXX                                |
 | XXX                             | Click on XXX                    | User is brought to the XXX                                |
-  
-
-### Contact Form
-* To find the form, navigate to XXXXXX
-* Fill out all the fields, including your first name, last name and a valid ‘@’ email address. 
-
-* If the form is completed properly, you will see the following message:  
-    ![form submit message]()  
-* If you try to submit without a first name or last name you will see the following message:  
-    ![fill in name message]()  
-* If you try to submit without a valid ‘@’ email address, you will see the following message:  
-    ![fill in email message]()  
-* If you try to submit a blank message without a description for your enquiry, you will see the following message:  
-    ![submit enquiry message]()  
+   
 
 ### Solved Bugs
 1.	 
@@ -378,28 +364,24 @@ The internal links feature in the XXXXX. All internal links have been tested and
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
-* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
-### Applications Used
+### Applications, Frameworks and Libraries Used
 * Git was used for version control.  
 * [Github](https://github.com/) was used to store the code.  
 * [Gitpod](https://www.gitpod.io/) was used for the CI template and to access VS code.  
 * [VS Code](https://code.visualstudio.com/)was used as a code editor.  
 * [Balsamic](https://balsamiq.com/) was used to create Wireframes.  
-* [Image Compressor](https://imagecompressor.com) was used to decrease the dimensions and size of the images used for the website.  
-* [Convertio](https://convertio.co/) was used to convert the image file types from jpg to webp format.  
+* [Image Compressor](https://imagecompressor.com) was used to decrease the dimensions and size of the background image used for the website.  
+* [Convertio](https://convertio.co/) was used to convert the image file type from jpg to webp format.  
 * [Am I Responsive](https://amiresponsive.co.uk/) was used to display all the pages of the website on different devices. 
 * [W3C HTML Markup Validation](https://validator.w3.org) was used to validate the HTML code of the website.
 * [W3C Jigsaw CSS Validation](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code of the website.
-* [WebAIM Wave Accessibility](https://wave.webaim.org) was used to evaluate the accessibility of the website to ensure it is up to high standards.
+* [JS Hint JavaScript Validation](https://jshint.com) was used to validate the JavaScript code of the website
+* [Google Dev Tools](https://developer.chrome.com/docs/) was used to test and troubleshoot issues
 * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to check the contrast of the colours used in the design of the website.
-
-### Frameworks, Libraries and CDNSs
-* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) is used throughout the website for template code and responsiveness. This includes XXXXXXXXXXX. All Bootstrap elements are styled using either Bootstrap CSS or custom CSS.  
-* [Google Fonts](https://fonts.google.com/) was used to import the three fonts used into the website.  
-* [Font Awesome](https://fontawesome.com/) was used to add icons for visual representation and aesthetic purposes.  
+* [Google Fonts](https://fonts.google.com/) was used to import the three fonts used into the website. 
 
 ### VS Code Extensions
 * [Prettier](https://prettier.io) – was used for code formatting and code completion. 
