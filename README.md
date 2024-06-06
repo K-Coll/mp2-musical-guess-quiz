@@ -422,15 +422,14 @@ The internal links feature in the XXXXX. All internal links have been tested and
 * [W3 Schools](https://www.w3schools.com) – used for problem solving.  
 * [Stack Overflow](https://stackoverflow.com)– for troubleshooting issues and problem solving.  
 * [Code Institute Slack Community](https://slack.com/intl/en-gb) – for problem solving and user feedback.  
-* Code Institute Love Maths Project – for inspiration / adaptation regarding .  
-* Code Institute Whisky Drop Project – for inspiration and Bootstrap grid system.  
-* Code Institue Rosie Resume – for inspiration and Bootstrap grid system.  
-* [YouTube: ]() – adapted from and inspired by
-* [XXX]() – code used.  
-* [YouTube: ]() - Code used.
-* [Article:]().  
-* [Article: ](h).  
-
+* Code Institute Love Maths Project – for inspiration regarding how to use JavaScript in an application. Putting it into practice helped me understand it more.
+* [Article: Simple Quiz App Using JavaScript & HTML]( https://foolishdeveloper.com/javascript-quiz-app/) – this was helpful in guiding me on how to get started with creating a quiz.  
+* [Article: How to Make a Simple JavaScript Quiz ]( https://www.sitepoint.com/simple-javascript-quiz/) – this was helpful in guiding me on how to get started with creating a quiz.
+* [Lyrical Blankety Blank]( https://github.com/rachaelbabister/lyric-quiz) – I found this previous Code Institute project which was very helpful. I looked through the source code to help with getting started in the beginning, as well as with the question counter.
+* [Youtube: How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript by GreatStack ]( https://youtu.be/PBcqGxrr9g8?si=EOGrC4tHEZ7rruQ7) – I completed this walkthrough YouTube tutorial. I was inspired by the code and have adapted it for my own project. This was very helpful in knowing where to begin, what components / elements were required to make a functional quiz and how it all fits together regarding interacting with the DOM.
+* [YouTube: Build A Quiz App With JavaScript by WebDevSimplified ]( https://youtu.be/riDzcEQbX6k?feature=shared) - I completed this walkthrough YouTube tutorial to help aid my understanding of how to put a quiz together. However, it was a quick and brief overview. I therefore utilised other resources.
+* [James Q Quick Github Repo / blog with accompanying YouTube Playlist ]( https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript) – I completed this walkthrough YouTube tutorial to help aid my understanding of how to put a quiz together.
+* [YouTube: How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial by Brian Design]( https://youtu.be/f4fB9Xg2JEY?si=Ei3U5hV8oxEPSp-J) – I completed this walkthrough YouTube tutorial to help aid my understanding of how to put a quiz together.  
 
 ### Content Used
 All text content was written by the developer.  
