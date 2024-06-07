@@ -370,13 +370,15 @@ I also used the W3c validator to check my HTML and CSS code, and used the JSHint
 
 
 ### Solved Bugs
-1.	 
+1.	When I implemented the quiz menu start and how to play buttons, I had placed the controls area div within the questions container div that I had added the class of “hide” to; when I tested the menu the control buttons were therefore hidden. I reviewed my code and discovered this. To rectify this, I moved the controls div outside of the questions container. In the end, the controls div did not have the class of hide and were displayed when the website was loaded. 
 
-2.	  
+2.	 I had implemented the JavaScript code for the quiz to select the answer, provide the live feedback for if it was right or wrong and display the next button. However, at this point and as I was testing quiz, it would only accept correct answers. It would not let me choose the wrong answer. I used JS Hint to debug and review my code. I found that I had added an extra full stop where it should not had been and this was interrupting and disrupting the functionality of the JavaScript code. It was in the function to check if the answer had been selected. I had added a full stop in-between the class list when navigating the DOM to manipulate the class of the answer options. Intially, I had typed “selectedBtn.class.List.add”. I changed the code to “selectedBtn.classList.add” and it worked properly.
 
-3.	 
+3.	 I had coded all the HTML, CSS and a little bit of the JavaScript code to start the quiz off, but when I went to test the quiz in the live server, nothing was happening. There was no interactivity; the quiz did not work as it did not pull through the questions from the questions array and did not replace the text within the html document. I manually reviewed my JavaScript code and changed some aspects of it, but I could not figure out what was not working. I then used JS hint to debug my JavaScript code, which advised it was working okay. I was getting frustrated at this point, so decided to take a break from it. When I came back with a fresh set of eyes, I did a manual review of my code. Whilst I was look at the HTML code, I discovered that I had not included the JavaScript script tag within the index.html page. The HTML and JavaScript code were not linked at all, which is why it wasn’t working. What I learnt from this is to first review your links between pages, stylesheets and JS scripts to make sure they are all interlinked and working properly. If I had done this first, I would have saved time reviewing my JS code – because it did actually work!
 
-4.	  
+4.	  It seems as though the How to Play Modal would not work with the introduction of Bootstrap. I am unsure as to why Bootstrap affected the modal, and with more time, I would have researched this to fix it. Therefore, I made the decision to remove Bootstrap from the project in order to showcase the skills I learnt to create a Modal using JavaScript, instead of using the inbuilt Modal within Bootstrap itself.
+
+5.	  The question counter would not reset back to 1 when the quiz had ended and the Play Again button had been clicked to initiate a new quiz. I reviewed my code as I had added an if statement which resets the question counter - when it gets to question ten, start again at question 1. What I hadn’t realised was, I only had 4 questions in the array as a test case. Once I added in more questions into the array, so there was 10 questions overall, the question counter worked as it should.
 
 
 ## Technologies Used
