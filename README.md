@@ -102,22 +102,21 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
     ![Colour Palette](assets/docs/design-wireframes/MS2-colour-palette.png)
 
 * #### Typography
-    Info about the fonts used and why
+    Three Google Fonts were used for this quiz website. I wanted a fun display font for the title, a playful yet easy to read font for the question/lyrics, and an easy to read font for the answer options / buttons. 
+
+    * Freeman is used for the quiz title and the How to Play title.
+    * Varela Round is used for the main text within the how to play modal. It is also used for the buttons, including the answer option buttons and the control buttons (start, how to play and next).
+    * Libre Baskerville is used for the quiz questions / lyrics. It has an italic style and was chosen to differentiate between the questions and answers.
     
-    Three fonts are used for this website.  
-    
-    Kalam is used for the website title / logo, for the contact link within the footer and for the submit button. Rubik is used for the menu navigation bar and the headings. Nunito Sans is used for the main body of the website.  
-    
-    Sans Serif was also used as the fall-back font throughout the entire website, if the other fonts are not working properly.  
-    
-    These fonts are accessible and were chosen because they are clear and easy to read and are popular for people who have visual or cognitive disabilities.  
+    Sans Serif was also used as the fall-back font throughout the entire website, if the other fonts are not working properly.   
 
 * #### Imagery
     There is only one image used within the website, and this is the background image. I chose this image as it is clean and minimalistic, whilst also being colourful. It represents the fun and bright nature of the pop music genre that the quiz is based upon. It is also the basis of the complimentary colour palette, which creates an overall cohesive and pleasing aesthetic.
-        
-    The imagery used on the website is sourced from Freepik.com, specifically:  
-      * [Background Image]( https://www.freepik.com/free-vector/colorful-musical-notes-background-pentagram-style_39455899.htm#fromView=search&page=2&position=6&uuid=a91be3d6-b1cc-45fc-91df-65f15d4f81ea). From author [Starline]( https://www.freepik.com/author/starline)  
     
+    ![Background Image](assets/docs/design-wireframes/colourful-music-notes-min.jpg)
+
+    The imagery used on the website is sourced from Freepik.com, specifically:
+      [Background Image]( https://www.freepik.com/free-vector/colorful-musical-notes-background-pentagram-style_39455899.htm#fromView=search&page=2&position=6&uuid=a91be3d6-b1cc-45fc-91df-65f15d4f81ea). From author [Starline]( https://www.freepik.com/author/starline) 
 
 ## Features
 
