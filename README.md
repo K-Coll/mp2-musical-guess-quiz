@@ -279,7 +279,7 @@ Testing was carried out throughout the development of the quiz website. Chrome d
     Contrast was checked for accessibility using [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/). The overall result for the website is good and very high. The contrast for the main body of the quiz website (which is the background colour for the main quiz app container, against the text colour for the title, question and answers) is 11.91:1
 
     <details><summary>Contrast Checker - Main Body</summary>
-    <img src="assets/docs/validation/contrast-checker-main-body.png">
+    <img src="assets/docs/validation/contrast-checker-main-body-1.png">
     </details>
 
 * ### Lighthouse
