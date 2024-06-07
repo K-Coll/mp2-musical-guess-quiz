@@ -36,7 +36,7 @@ It has been built using HTML5, CSS3 and JavaScript to allow the user to interact
   * [Solved Bugs](#solved-bugs)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Applications, Frameworks and Libraries Used](#Applications, Frameworks and Libraries Used)
+  * [Applications, Frameworks and Libraries Used](#Applications-Frameworks-and-Libraries-Used)
   * [VS Code Extensions](#vs-code-extensions)
 * [Deployment & Local Development](#deployment-local-development)
   * [Deployment](#deployment)
@@ -98,23 +98,6 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
     The background image used is clean and minimalistic, whilst also being colourful. The main colours used were chosen to tie in with and compliment the background image, as it has lots of complimentary colours which creates an overall cohesive and pleasing aesthetic. 
 
     <details><summary>Colour Palette</summary>
-    <img src="">
-    </details>
-
-* #### Contrast Checker
-    Contrast was checked for accessibility using [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
-        <br>
-      The overall contrast for the website is good. I have picked out a couple of elements to showcase this:    
-    
-    The contrast for the main body of the quiz website (which is the background colour for the main quiz app container, against the text colour for the title, question and answers) is
-    
-    The contrast for the Next button is
-     
-
-    <details><summary>Contrast Checker </summary>
-    <img src="">
-    </details>
-    <details><summary>Contrast Checker </summary>
     <img src="">
     </details>
 
@@ -207,7 +190,12 @@ As previously mentioned, I had to downscale the features that I wanted to includ
 
 ## Testing
 
+Testing was carried out throughout the development of the quiz website.
+
 Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
+
+I also used the W3c validator to check my HTML and CSS code, and used the JSHint validator to check my JavaScript code.
+
 
 ### Testing User Stories
 
@@ -291,37 +279,79 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <br>
 
 
-### Validator Testing
-* #### HTML Validation
-    The W3C HTML Markup Validator was used to validate the HTML code of the website. 
+## Online Validation Testing
 
-    <details><summary>Page 1</summary>
+* ### Contrast Checker
+    Contrast was checked for accessibility using [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
+        <br>
+      The overall contrast for the website is good. I have picked out a couple of elements to showcase this:    
+    
+    The contrast for the main body of the quiz website (which is the background colour for the main quiz app container, against the text colour for the title, question and answers) is
+    
+    The contrast for the Next button is
+     
+
+    <details><summary>Contrast Checker - Main Body </summary>
     <img src="">
     </details>
-    <details><summary>Page 2</summary>
-    <img src="">
-    </details>
-    <details><summary>Page 3</summary>
-    <img src="">
-    </details>
-    <details><summary>Page 4<</summary>
+    <details><summary>Contrast Checker - Button </summary>
     <img src="">
     </details>
 
-* #### CSS Validation
-    The W3C Jigsaw CSS Validator was used to test the CSS code of the website.  
+* ### Lighthouse
+    I tested my quiz website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (search engine optimisation). 
+
+  * #### Desktop Results
+    The results for the desktop were good.
+
+    <details><summary>Lighthouse - Desktop</summary>
+    <img src="">
+    </details>
+
+  * #### Mobile Results
+   The lighthouse testing results for mobile were good.
+
+    <details><summary>Lighthouse - Mobile</summary>
+    <img src="">
+    </details>
+
+
+* ### HTML Validation
+    The W3C HTML Markup Validator was used to validate the HTML code of the website. There was an error for an extra div and the use of the discontinued inline styling to centre the controls divs. Once these bugs were fixed, it returned no errors.
+
+    <details><summary>HTML Validator</summary>
+    <img src="">
+    </details>
+
+* ### CSS Validation
+    The W3C Jigsaw CSS Validator was used to test the CSS code of the website. It returned no errors.
 
     <details><summary>CSS Validator</summary>
     <img src="">
     </details>
-    <details><summary>CSS Warning</summary>
+
+* ### JSHint Validation
+    The JSHint Validator was used to test the JavaScript code of the website. There was a warning for an omitted semi colon within the How to Play modal. Once this bug was fixed and the semi colon was added, it returned no errors.
+
+    <details><summary>JSHint Validator</summary>
     <img src="">
     </details>
 
-### Lighthouse
-I tested my website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (seacrh enginer optimisation). 
+## Manual Testing
 
-![Lighthouse Testing]()
+### Features Testing
+
+| **Feature** 	       | **Test Case**		              | **Outcome**		                      |
+| -------------------- | ------------------------------ | ----------------------------------- |
+| Start Button	       | Click to start a new quiz      | Quiz starts successfully            |
+| How to Play Button   | Click to open rules modal      | How to Play modal is opened         |
+| Close Button	       | Click to close rules modal     | How to Play modal is closed         |
+| Question Counter	   | Click to start a new quiz      | Quiz starts successfully            |
+| Answer Buttons       | Click to select answer         | Answer is successfully selected     |
+| Answer Feedback	     | Change background colour       | Background colour changes           |
+| Next Button		       | Click to move to next question | New question and answers are loaded |
+| Play Again		       | Click to restart the quiz      | Quiz restarts successfully          |
+
 
 ### Full Testing on Devices and Browsers
   The website was tested and functioned / performed well on Chrome, Edge and Safari.  
@@ -338,16 +368,6 @@ I tested my website using Lighthouse within Chrome Developer Tools. This allowed
   * Mobile
     * iPhone 11
 
-### Links
-The internal links feature in the XXXXX. All internal links have been tested and take you to the directed page within the website.
-
-| Link / Feature                  |  Test Case                      | Outcome                                                   |
-| :---------                      | :----------------               | :-----------------------------------                      |
-| XXX                             | Click on XXX                    | User is brought to XXX                                    |
-| XXX                             | Click on XXX                    | User is brought to XXX                                    |
-| XXX                             | Click on XXX                    | User is brought to the XXX                                |
-| XXX                             | Click on XXX                    | User is brought to the XXX                                |
-   
 
 ### Solved Bugs
 1.	 
