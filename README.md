@@ -216,8 +216,19 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 1. For users to play a fun and engaging online quiz to test their musical knowledge by guessing the song title and artist from the lyric presented.
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Quiz Title  	       | No action - this is a static element | Quiz title is visable throughout the quiz | Works as expected |
+| Start button         | Locate the Start button and click it, which starts the quiz | Question / lyric is visable, as well as answer buttons | Works as expected, the quiz is started |
+| How to Play button   | Locate the How to Play button and click it, which opens the rules modal | Rules Modal is opened | Works as expected, the user understands the aim of the quiz |
+| How to Play modal   | Locate the How to Play button and click it, which opens the rules modal | Rules Modal is opened | Works as expected, the user understands the aim of the quiz |
+| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
+| Question Counter	   | Counter increments by 1 for each new question     | Counter increments by 1 for each new question     | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
+| Question / Lyrics  | Locate the question / lyric to idenitfy|  The question / lyric loads and is identifiable | Works as expected, the user knows what lyrics they have to indentify |
+| Answer Options  | Locate the answers options to choose from, click to select answer | The answer options load and are clickable| Works as expected, the user knows what answers they have to choose from |
+| Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
+| Next Button		       | Click to progress to the next question | New question and answers are loaded |
+| Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
 <details><summary>XXXX</summary>
 <img src="">     
@@ -226,8 +237,11 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 2. For the user to see their progress and to see how many questions they have completed.     
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
+| Question Counter	   | Counter increments by 1 for each new question     | Counter increments by 1 for each new question     | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
+
 
 <details><summary>XXXX</summary>
 <img src="">     
@@ -236,8 +250,11 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 3.  For the users score to be added up and for them to see their final score the end.
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
+| Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
+| Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
 <details><summary>XXXX</summary>
 <img src="">     
@@ -246,8 +263,11 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 4.  To allow the user to try the quiz again and to reload the questions to try and beat their score.
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
+| Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
+| Play Again		       | Click to restart the quiz      | Quiz restarts successfully          |
 
 <details><summary>XXXX</summary>
 <img src="">     
@@ -258,8 +278,17 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 5.  I want to test my musical knowledge by guessing the song title and artist from the lyric presented.  
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Start button         | Locate the Start button and click it, which starts the quiz | Question / lyric is visable, as well as answer buttons | Works as expected, the quiz is started |
+| How to Play button   | Locate the How to Play button and click it, which opens the rules modal | Rules Modal is opened | Works as expected, the user understands the aim of the quiz |
+| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
+| Question Counter	   | Counter increments by 1 for each new question     | Counter increments by 1 for each new question     | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
+| Question / Lyrics  | Locate the question / lyric to idenitfy|  The question / lyric loads and is identifiable | Works as expected, the user knows what lyrics they have to indentify |
+| Answer Options  | Locate the answers options to choose from, click to select answer | The answer options load and are clickable| Works as expected, the user knows what answers they have to choose from |
+| Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
+| Next Button		       | Click to progress to the next question | New question and answers are loaded |
+| Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
 <details><summary>XXXX</summary>
 <img src="">     
@@ -268,8 +297,12 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 6.  I want to see my progress throughout the quiz.    
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
+| Question Counter	   | Counter increments by 1 for each new question     | Counter increments by 1 for each new question     | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
+| Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
+| Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
 <details><summary>XXXX</summary>
 <img src="">     
@@ -278,8 +311,12 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 7.  I want to know the aim of the quiz / how to play.   
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Start button         | Locate the Start button and click it, which starts the quiz | Question / lyric is visable, as well as answer buttons | Works as expected, the quiz is started |
+| How to Play button   | Locate the How to Play button and click it, which opens the rules modal | Rules Modal is opened | Works as expected, the user understands the aim of the quiz |
+| How to Play modal   | Locate the How to Play button and click it, which opens the rules modal | Rules Modal is opened | Works as expected, the user understands the aim of the quiz |
+| Close Button	       | Click to close rules modal     | How to Play modal is closed         |
 
 <details><summary>XXXX</summary>
 <img src="">     
@@ -288,18 +325,25 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 8.  I want to see if I get the answers correct or not.   
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
+| Answer Options  | Locate the answers options to choose from, click to select answer | The answer options load and are clickable| Works as expected, the user knows what answers they have to choose from |
+| Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
+| Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
 <details><summary>XXXX</summary>
 <img src="">     
 </details>
 <br>
 
-9.   want to know what my final score is at the end, once I’ve completed the quiz.   
+9.   I want to know what my final score is at the end, once I’ve completed the quiz.   
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
+| Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
+| Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
 <details><summary>XXXX</summary>
 <img src="">     
@@ -308,8 +352,10 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 10.  I’d like to be able to play again to beat my score.  
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
+| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
+| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
+| Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
+| Play Again		       | Click to restart the quiz      | Quiz restarts successfully          |
 
 <details><summary>XXXX</summary>
 <img src="">     
