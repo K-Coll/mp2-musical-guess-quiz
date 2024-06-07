@@ -79,14 +79,14 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
 
   Wireframes were created using Balsamic for Mobile, Tablet and Desktop. I tried to stick to this design as close as possible for the final project. However, I added lots of features into the wireframes as I was aiming high for this project; which turned out to be quite ambitious during the build phase. JavaScript has been difficult and challenging for me to learn and I ran out of time towards the end as the deadline was approaching. I therefore downscaled my project throughout the building process to be able to do better with less elements, whilst also showcasing the JavaScript that I had learnt along the way. I had added the elements I was not able to create into my ‘Future Implementations’ section. With additional time, research, practice and learning, I am confident that I can execute these additional features in the future.
 
-<details><summary>Mobile</summary>
-<img src="">
+<details><summary>Wireframe - Mobile</summary>
+<img src="assets/docs/design-wireframes/MP2-Wireframe-Mobile.png">
 </details>
-<details><summary>Tablet</summary>
-<img src="">
+<details><summary>Wireframe - Tablet</summary>
+<img src="assets/docs/design-wireframes/MP2-Wireframe-Tablet.png">
 </details>
-<details><summary>Desktop</summary>
-<img src="">
+<details><summary>Wireframe - Desktop</summary>
+<img src="assets/docs/design-wireframes/MP2-Wireframe-Desktop.png">
 </details>
 
   ### Surface
@@ -99,9 +99,7 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
     
     The background image used is clean and minimalistic, whilst also being colourful. The main colours used were chosen to tie in with and compliment the background image, as it has lots of complimentary colours which creates an overall cohesive and pleasing aesthetic. 
 
-    <details><summary>Colour Palette</summary>
-    <img src="">
-    </details>
+    ![Colour Palette](assets/docs/design-wireframes/MS2-colour-palette.png)
 
 * #### Typography
     Info about the fonts used and why
