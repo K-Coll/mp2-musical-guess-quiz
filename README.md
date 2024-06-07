@@ -346,7 +346,7 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Question Counter	   | Counter increments by 1 for each new question      | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
 | Answer Buttons       | Click to select answer         | Answer is successfully selected     |
 | Live Feedback	for right & wrong answers    | Once the answer button is clicked, change background colour of answer buttons for right and wrong answers       | Background colour changes           |
-| Next Button		       | Click to move to next question | New question and answers are loaded |
+| Next Button		       | Click to progress to the next question | New question and answers are loaded |
 | Play Again		       | Click to restart the quiz      | Quiz restarts successfully          |
 
 
