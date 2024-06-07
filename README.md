@@ -189,12 +189,7 @@ As previously mentioned, I had to downscale the features that I wanted to includ
 
 ## Testing
 
-Testing was carried out throughout the development of the quiz website.
-
-Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
-
-I also used the W3c validator to check my HTML and CSS code, and used the JSHint validator to check my JavaScript code.
-
+Testing was carried out throughout the development of the quiz website. Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
 
 ### Testing User Stories
 
