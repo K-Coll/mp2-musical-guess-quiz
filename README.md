@@ -210,6 +210,8 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 I made the decision to perform manual testing on my quiz website, as I felt that my project was too small in scale to require automated tests to be designed. However, I will look to implement Test Driven Development and Automated Testing in the future, in accordance with the scope and scale of the project.
 
+Testing was carried out by myself, my friends and my family and feedback has generally been positive.
+
 ### Testing User Stories
 
 #### Site Owner Goals
