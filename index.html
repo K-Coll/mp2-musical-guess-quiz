@@ -13,16 +13,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Varela+Round&display=swap" rel="stylesheet">
     <!--Title of Page-->
+    <title>Musical Guess Quiz!</title>
 </head>
 <body>
 <!--Main Quiz app container-->
-    <div class="container app">
+    <main class="container app">
         <!--Welcome container with title of quiz-->
-        <div id="welcome-container">
+        <section id="welcome-container">
             <h1>Musical Guess!</h1>
-        </div>
+        </section>
         <!--Question container to house actual quiz question and the four possible answer buttons-->
-        <div id="question-container" class="quiz hide">
+        <section id="question-container" class="quiz hide">
             <div id="num-of-num" style="text-align:center;display:block;">Question 1 of 10</div>
             <h2 id="question">Question</h2>
             <div id="answer-buttons">
@@ -31,14 +32,14 @@
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
             </div>
-        </div>
+        </section>
         <!--Controls container to house the start, how to play and next buttons-->
         <div class="controls" style="text-align:center;display:block;">
             <button id="start-btn" class="start-btn btn">Start</button>
             <button id="open-button" class="aim-btn btn open-button">How to Play</button>
             <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
-    </div>
+    </main>
 
     <!--How to Play Modal inspired by and adapated from two youtube tutorials - https://youtu.be/JuLBQXERz8Y?si=SIWko1vAvb1OhP4p and https://youtu.be/ywtkJkxJsdg?si=tN05nAscKowR-hkd --> 
     <section>
