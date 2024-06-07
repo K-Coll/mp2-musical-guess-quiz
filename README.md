@@ -281,20 +281,10 @@ I also used the W3c validator to check my HTML and CSS code, and used the JSHint
 ## Online Validation Testing
 
 * ### Contrast Checker
-    Contrast was checked for accessibility using [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
-        <br>
-      The overall contrast for the website is good. I have picked out a couple of elements to showcase this:    
-    
-    The contrast for the main body of the quiz website (which is the background colour for the main quiz app container, against the text colour for the title, question and answers) is
-    
-    The contrast for the Next button is
-     
+    Contrast was checked for accessibility using [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/). The overall result for the website is good and very high. The contrast for the main body of the quiz website (which is the background colour for the main quiz app container, against the text colour for the title, question and answers) is 11.91:1
 
-    <details><summary>Contrast Checker - Main Body </summary>
-    <img src="">
-    </details>
-    <details><summary>Contrast Checker - Button </summary>
-    <img src="">
+    <details><summary>Contrast Checker - Main Body</summary>
+    <img src="assets/docs/validation/contrast-checker-main-body.png">
     </details>
 
 * ### Lighthouse
@@ -319,14 +309,14 @@ I also used the W3c validator to check my HTML and CSS code, and used the JSHint
     The W3C HTML Markup Validator was used to validate the HTML code of the website. There was an error for an extra div and the use of the discontinued inline styling to centre the controls divs. Once these bugs were fixed, it returned no errors.
 
     <details><summary>HTML Validator</summary>
-    <img src="">
+    <img src="assets/docs/validation/w3c-html-validation.png">
     </details>
 
 * ### CSS Validation
     The W3C Jigsaw CSS Validator was used to test the CSS code of the website. It returned no errors.
 
     <details><summary>CSS Validator</summary>
-    <img src="">
+    <img src="assets/docs/validation/w3c-css-validation.png">
     </details>
 
 * ### JSHint Validation
