@@ -297,9 +297,7 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 * ### Contrast Checker
     Contrast was checked for accessibility using [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/). The overall result for the website is good and very high. The contrast for the main body of the quiz website (which is the background colour for the main quiz app container, against the text colour for the title, question and answers) is 11.91:1
 
-    <details><summary>Contrast Checker - Main Body</summary>
-    <img src="assets/docs/validation/contrast-checker-main-body-1.png">
-    </details>
+    ![Contrast Checker](assets/docs/validation/contrast-checker-main-body-1.png)   
 
 * ### Lighthouse
     I tested my quiz website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (search engine optimisation). 
@@ -322,23 +320,19 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 * ### HTML Validation
     The W3C HTML Markup Validator was used to validate the HTML code of the website. There was an error for an extra div and the use of the discontinued inline styling to centre the controls divs. Once these bugs were fixed, it returned no errors.
 
-    <details><summary>HTML Validator</summary>
-    <img src="assets/docs/validation/w3c-html-validation.png">
-    </details>
+    ![HTML Validator](assets/docs/validation/w3c-html-validation.png)   
 
 * ### CSS Validation
     The W3C Jigsaw CSS Validator was used to test the CSS code of the website. It returned no errors.
 
-    <details><summary>CSS Validator</summary>
-    <img src="assets/docs/validation/w3c-css-validation.png">
-    </details>
+    ![CSS Validator](assets/docs/validation/w3c-css-validation.png)   
 
 * ### JSHint Validation
     The JSHint Validator was used to test the JavaScript code of the website. There was a warning for an omitted semi colon within the How to Play modal. Once this bug was fixed and the semi colon was added, it returned no errors.
 
-    <details><summary>JSHint Validator</summary>
-    <img src="">
-    </details>
+    ![JSHint Validator - Script.js]() 
+
+    ![JSHint Validator - Modal.js]() 
 
 ## Manual Testing
 
@@ -349,9 +343,9 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Start Button	       | Click to start a new quiz      | Quiz starts successfully            |
 | How to Play Button   | Click to open rules modal      | How to Play modal is opened         |
 | Close Button	       | Click to close rules modal     | How to Play modal is closed         |
-| Question Counter	   | Click to start a new quiz      | Quiz starts successfully            |
+| Question Counter	   | Counter increments by 1 for each new question      | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
 | Answer Buttons       | Click to select answer         | Answer is successfully selected     |
-| Answer Feedback	     | Change background colour       | Background colour changes           |
+| Live Feedback	for right & wrong answers    | Once the answer button is clicked, change background colour of answer buttons for right and wrong answers       | Background colour changes           |
 | Next Button		       | Click to move to next question | New question and answers are loaded |
 | Play Again		       | Click to restart the quiz      | Quiz restarts successfully          |
 
