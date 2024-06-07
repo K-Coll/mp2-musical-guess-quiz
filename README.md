@@ -230,21 +230,57 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Next Button		       | Click to progress to the next question | New question and answers are loaded |
 | Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
-<details><summary>XXXX</summary>
-<img src="">     
+<details><summary>Quiz Title</summary>
+<img src="assets/docs/user-story-testing/user-story-quiz-title.png">     
+</details>
+<details><summary>Start & How to Play Buttons</summary>
+<img src="assets/docs/user-story-testing/user-story-menu-controls.png">     
+</details>
+<details><summary>How to Play Modal</summary>
+<img src="assets/docs/user-story-testing/user-story-how-to-play-modal.png">     
+</details>
+<details><summary>Main Quiz Area</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Question Counter</summary>
+<img src="assets/docs/user-story-testing/user-story-question-counter.png">     
+</details>
+<details><summary>Question / Lyrics</summary>
+<img src="assets/docs/user-story-testing/user-story-question-lyric.png">     
+</details>
+<details><summary>Answer Options 1</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-1.png">     
+</details>
+<details><summary>Answer Options 2</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-2.png">     
+</details>
+<details><summary>Answer Options 3</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-3.png">     
+</details>
+<details><summary>Right & Wrong Answer Feedback</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-feedback.png">     
+</details>
+<details><summary>Next Button</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Results</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
 </details>
 <br>
 
 2. For the user to see their progress and to see how many questions they have completed.     
 
-| **Feature** 	       | **Action**		                        | **Expected Result**		                    |**Actual Result**		                      |
-| -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
-| Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
-| Question Counter	   | Counter increments by 1 for each new question     | Counter increments by 1 for each new question     | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
+| **Feature** 	       | **Action**		                                         | **Expected Result**		                         |**Actual Result**		                       |
+| -------------------- | ------------------------------                        | -----------------------------------------       | ----------------------------------------- |
+| Main Quiz Area       | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected                         |
+| Question Counter	   | Counter increments by 1 for each new question         | Counter increments by 1 for each new question   | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
 
 
-<details><summary>XXXX</summary>
-<img src="">     
+<details><summary>Main Quiz Area</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Question Counter</summary>
+<img src="assets/docs/user-story-testing/user-story-question-counter.png">     
 </details>
 <br>
 
@@ -256,8 +292,14 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
 | Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
-<details><summary>XXXX</summary>
-<img src="">     
+<details><summary>Main Quiz Area</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Right & Wrong Answer Feedback</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-feedback.png">     
+</details>
+<details><summary>Results</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
 </details>
 <br>
 
@@ -269,8 +311,11 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 | Play Again		       | Click to restart the quiz      | Quiz restarts successfully          |
 
-<details><summary>XXXX</summary>
-<img src="">     
+<details><summary>Main Quiz Area</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Results & Play Again Button</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
 </details>
 <br>
 
@@ -282,6 +327,7 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | -------------------- | ------------------------------       | ----------------------------------------- | ----------------------------------------- |
 | Start button         | Locate the Start button and click it, which starts the quiz | Question / lyric is visable, as well as answer buttons | Works as expected, the quiz is started |
 | How to Play button   | Locate the How to Play button and click it, which opens the rules modal | Rules Modal is opened | Works as expected, the user understands the aim of the quiz |
+| How to Play modal   | Locate the How to Play button and click it, which opens the rules modal | Rules Modal is opened | Works as expected, the user understands the aim of the quiz |
 | Main Quiz Area   | Locate the main quiz area which houses the entire quiz| Main quiz area loads and houses the entire quiz | Works as expected |
 | Question Counter	   | Counter increments by 1 for each new question     | Counter increments by 1 for each new question     | Question Counter sucessfully increments by 1 for each new quesion, until it gets to 10 questions. It then restarts at 1 when the play again button is clicked    |
 | Question / Lyrics  | Locate the question / lyric to idenitfy|  The question / lyric loads and is identifiable | Works as expected, the user knows what lyrics they have to indentify |
@@ -290,8 +336,39 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Next Button		       | Click to progress to the next question | New question and answers are loaded |
 | Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
-<details><summary>XXXX</summary>
-<img src="">     
+
+<details><summary>Start & How to Play Buttons</summary>
+<img src="assets/docs/user-story-testing/user-story-menu-controls.png">     
+</details>
+<details><summary>How to Play Modal</summary>
+<img src="assets/docs/user-story-testing/user-story-how-to-play-modal.png">     
+</details>
+<details><summary>Main Quiz Area</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Question Counter</summary>
+<img src="assets/docs/user-story-testing/user-story-question-counter.png">     
+</details>
+<details><summary>Question / Lyrics</summary>
+<img src="assets/docs/user-story-testing/user-story-question-lyric.png">     
+</details>
+<details><summary>Answer Options 1</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-1.png">     
+</details>
+<details><summary>Answer Options 2</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-2.png">     
+</details>
+<details><summary>Answer Options 3</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-3.png">     
+</details>
+<details><summary>Right & Wrong Answer Feedback</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-feedback.png">     
+</details>
+<details><summary>Next Button</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Results</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
 </details>
 <br>
 
@@ -304,8 +381,17 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
 | Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
-<details><summary>XXXX</summary>
-<img src="">     
+<details><summary>Main Quiz Area</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Question Counter</summary>
+<img src="assets/docs/user-story-testing/user-story-question-counter.png">     
+</details>
+<details><summary>Right & Wrong Answer Feedback</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-feedback.png">     
+</details>
+<details><summary>Results</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
 </details>
 <br>
 
@@ -318,8 +404,11 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | How to Play modal   | Locate the How to Play button and click it, which opens the rules modal | Rules Modal is opened | Works as expected, the user understands the aim of the quiz |
 | Close Button	       | Click to close rules modal     | How to Play modal is closed         |
 
-<details><summary>XXXX</summary>
-<img src="">     
+<details><summary>Start & How to Play Buttons</summary>
+<img src="assets/docs/user-story-testing/user-story-menu-controls.png">     
+</details>
+<details><summary>How to Play Modal & Close Button</summary>
+<img src="assets/docs/user-story-testing/user-story-how-to-play-modal.png">     
 </details>
 <br>
 
@@ -332,8 +421,24 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
 | Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
-<details><summary>XXXX</summary>
-<img src="">     
+
+<details><summary>Main Quiz Area</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Answer Options 1</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-1.png">     
+</details>
+<details><summary>Answer Options 2</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-2.png">     
+</details>
+<details><summary>Answer Options 3</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-options-3.png">     
+</details>
+<details><summary>Right & Wrong Answer Feedback</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-feedback.png">     
+</details>
+<details><summary>Results</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
 </details>
 <br>
 
@@ -345,8 +450,14 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Right & Wrong answer feedback  | Live feedback provided once answer is selected | The background colour changes depending on if the right or wrong answer is selected| Works as expected, the user knows if they have chosen the right or wrong answer |
 | Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 
-<details><summary>XXXX</summary>
-<img src="">     
+<details><summary>Main Quiz Area</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
+</details>
+<details><summary>Right & Wrong Answer Feedback</summary>
+<img src="assets/docs/user-story-testing/user-story-answer-feedback.png">     
+</details>
+<details><summary>Results</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
 </details>
 <br>
 
@@ -357,8 +468,8 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 | Results  | Locate the results page at the end of the quiz | The number of correctly answered questions is displayed| Works as expected, the user knows how they performed in the quiz |
 | Play Again		       | Click to restart the quiz      | Quiz restarts successfully          |
 
-<details><summary>XXXX</summary>
-<img src="">     
+<details><summary>Results & Play Again Button</summary>
+<img src="assets/docs/user-story-testing/user-story-main-quiz-area.png">     
 </details>
 <br>
 
