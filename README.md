@@ -214,23 +214,41 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 #### Site Owner Goals
 
-1. XXX
+1. For users to play a fun and engaging online quiz to test their musical knowledge by guessing the song title and artist from the lyric presented.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 
-  
 <details><summary>XXXX</summary>
 <img src="">     
 </details>
 <br>
 
-2. XXX      
+2. For the user to see their progress and to see how many questions they have completed.     
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 
-  
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+3.  For the users score to be added up and for them to see their final score the end.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+4.  To allow the user to try the quiz again and to reload the questions to try and beat their score.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
 <details><summary>XXXX</summary>
 <img src="">     
 </details>
@@ -238,7 +256,7 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 
 #### First Time Visitor Goals
 
-3.  XXX 
+5.  I want to test my musical knowledge by guessing the song title and artist from the lyric presented.  
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -248,40 +266,47 @@ Testing was carried out throughout the development of the quiz website. Chrome d
 </details>
 <br>
 
-4.  XXX 
+6.  I want to see my progress throughout the quiz.    
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-
 
 <details><summary>XXXX</summary>
 <img src="">     
 </details>
 <br>
 
-5.  XXX  
+7.  I want to know the aim of the quiz / how to play.   
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-
 
 <details><summary>XXXX</summary>
 <img src="">     
 </details>
 <br>
 
-6.  XXX    
+8.  I want to see if I get the answers correct or not.   
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-
 
 <details><summary>XXXX</summary>
 <img src="">     
 </details>
 <br>
 
-7.  XXXX   
+9.   want to know what my final score is at the end, once I’ve completed the quiz.   
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+
+<details><summary>XXXX</summary>
+<img src="">     
+</details>
+<br>
+
+10.  I’d like to be able to play again to beat my score.  
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
