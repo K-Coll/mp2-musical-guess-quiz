@@ -19,7 +19,6 @@ It has been built using HTML5, CSS3 and JavaScript to allow the user to interact
   * [Surface](#surface)
     * [Design](#design)
     * [Colour Scheme](#colour-scheme)
-    * [Contrast Checker](#contrast-checker)
     * [Typography](#typography)
     * [Imagery](#imagery)
 * [Features](#features)
@@ -76,7 +75,6 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
   The quiz website has one page which houses the entire quiz - from the menu with the start button and how to play button/modal, to the quiz container housing the question and answers and next button, to the results section displaying the number of correctly answered questions and the play again button. The interactivity and functionality throughout the quiz is completed using JavaScript.   
   
 ### Skeleton
-
   Wireframes were created using Balsamic for Mobile, Tablet and Desktop. I tried to stick to this design as close as possible for the final project. However, I added lots of features into the wireframes as I was aiming high for this project; which turned out to be quite ambitious during the build phase. JavaScript has been difficult and challenging for me to learn and I ran out of time towards the end as the deadline was approaching. I therefore downscaled my project throughout the building process to be able to do better with less elements, whilst also showcasing the JavaScript that I had learnt along the way. I had added the elements I was not able to create into my ‘Future Implementations’ section. With additional time, research, practice and learning, I am confident that I can execute these additional features in the future.
 
 <details><summary>Wireframe - Mobile</summary>
@@ -120,25 +118,25 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
 
 ## Features
 
-* #### Quiz Title
+* ### Quiz Title
   * The Quiz title is a static element and is visible on the page throughout the entirety of the quiz. This is to ensure the branding of the quiz and to let users know what the quiz is about when they first visit the website. User Stories covered: 1, 5.
  
   ![Quiz Title](assets/docs/features/feature-quiz-title.png) 
   <br>  
 
-* #### Menu Controls / Start Button / How to Play Button
+* ### Menu Controls / Start Button / How to Play Button
   * The menu control area is the initial navigation for the quiz and is intuitive. It houses the start button and the how to play button that links to the rules modal. This is the first thing the user sees when they enter the website. When the user clicks the start button, the quiz is initialised. User Stories covered: 1, 5, 7.
  
   ![Menu Controls](assets/docs/features/feature-menu-controls.png) 
   <br>  
 
-* #### How to Play Modal 
+* ### How to Play Modal 
   * Within the controls area, there is a "How to Play" button. This prompts the user to click it and When this happens, the rules modal opens and is closed by clicking the close button. This explains the aim of the quiz, how the question is going to be presented, how many answers options there will be, what results the user will be given at the end, the ability to try again and a recommendation to play with their friends to beat their scores. User Stories covered: 7.
 
   ![How to Play Modal](assets/docs/features/feature-how-to-play-modal.png)  
   <br>
 
-* #### Main Quiz Area 
+* ### Main Quiz Area 
   * This is a box that has a pink background with opacity, so the background image is visible. It houses the following elements: the menu controls, the question counter, the actual quiz question / lyrics, the answer options to choose from and the next button. It also displays the results of the quiz once it is completed and the play again button. User Stories covered: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. There are mutliple screenshots to show case this, which is why I've used the toggle option below:
 
   <details><summary>Menu Controls</summary>
@@ -155,19 +153,19 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
   </details>
   <br>
   
-* #### Question Counter
+* ### Question Counter
   * The question counter starts at 1 and increments upward as each new question is loaded. This provides visual feedback to the user regarding their progress through the quiz, so they know what question they are on and how many questions are left. User Stories covered: 2, 6.
   
   ![Question Counter](assets/docs/features/feature-question-counter.png)  
   <br>
 
-* #### Question / Lyric
+* ### Question / Lyric
   * The question area show the presented song lyric, which acts as the question as this is what the user needs to identify the song title and artists from the answer options. There are 10 questions to answer in total. User Stories covered: 1, 5.
   
   ![Question / Lyrics](assets/docs/features/feature-question-lyric.png)   
   <br>
 
-* #### Answer Options
+* ### Answer Options
   * There are four answer options for every question. These are presented in a box/button format and have a hover effect. The user only gets one chance to answer the question; after the user has chosen their answer, they are unable to select other options, live feedback is provided regarding if the answer is right or wrong and the Next button is also display, allowing the user to move on to the next question in the quiz. User Stories covered: 1, 5, 8. There are mutliple screenshots to show case this, which is why I've used the toggle option below:
   
   <details><summary>Answer Options 1</summary>
@@ -181,13 +179,13 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
   </details>
   <br>
 
-* #### Right / Wrong Answer Feedback
+* ### Right / Wrong Answer Feedback
   * Once the user has selected their answer, they are provided with live feedback regarding if the answer is correct or not. The background colour of the answer button will change to green if correct and red if incorrect. If the answer is incorrect, the correct answer will also be displayed. This also links in with the score incrementation; if the answer is correct, points are added to their score (1 point for each correct answer). If the answer is incorrect, no points are added. User Stories covered: 1, 3, 5, 6, 8, 9.
   
   ![Answer Feedback](assets/docs/features/feature-answer-feedback.png) 
   <br>
 
-* #### Results
+* ### Results
    * Once the user has completed all 10 questions, the results are displayed. There is a congratulations message for completing the quiz, along with how many questions out of 10 they answered correctly. The user also has the option to the play the quiz again. User Stories covered: 3, 4, 9, 10.
 
   ![Results](assets/docs/features/feature-results.png)  
