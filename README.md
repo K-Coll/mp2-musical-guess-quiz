@@ -208,6 +208,8 @@ As previously mentioned, I had to downscale the features that I wanted to includ
 
 Testing was carried out throughout the development of the quiz website. Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
 
+I made the decision to perform manual testing on my quiz website, as I felt that my project was too small in scale to require automated tests to be designed. However, I will look to implement Test Driven Development and Automated Testing in the future, in accordance with the scope and scale of the project.
+
 ### Testing User Stories
 
 #### Site Owner Goals
