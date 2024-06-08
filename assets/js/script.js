@@ -90,6 +90,96 @@ const questions = [
             { text: "I'm Yours - Jason Mraz", correct: false,}
         ] 
     },
+    {
+        question: "Now I'm a burning lethargy of everything I used to be, you're my rock of empathy, my dear",
+        answers: [
+            { text: "Let Me Entertain You – Robbie Williams", correct: true},
+            { text: "Relight My Fire – Take That", correct: false},
+            { text: "Lifeline - Westlife", correct: false},
+            { text: "Yesterday – The Beatles", correct: false},
+        ]
+    },
+    {
+        question: "Don't go crying to your mama, 'Cause you're on your own in the real world.",
+        answers: [
+            { text: "Ain’t It Fun - Paramore", correct: true},
+            { text: "My Happy Ending – Avril Lavigne", correct: false},
+            { text: "Close – Nick Jonas", correct: false},
+            { text: "Wonderwall - Oasis", correct: false},
+        ]
+    },
+    {
+        question: "Where are the hopes, where are the dreams, my Cinderella-story scene? When do you think they'll finally see.",
+        answers: [
+            { text: "We Found Love - Rihanna", correct: false},
+            { text: "The Best Damn Thing - Avril Lavigne", correct: true},
+            { text: "Someone Like You - Adele", correct: false},
+            { text: "Love Story – Taylor Swift", correct: false},
+        ] 
+    },
+    {
+        question: "Did your boots stop workin'? Did your truck break down? Did you burn through money? Did your ex find out?",
+        answers: [
+            { text: "We Can’t Stop – Miley Cyrus", correct: false},
+            { text: "Somethin Bad – Carrie Underwood", correct: false},
+            { text: "Texas Hold ‘Em - Beyonce", correct: false},
+            { text: "Austin - Dasha", correct: true},
+        ] 
+    },
+    {
+        question: "I'm working late 'cause I'm a singer, Oh, he looks so cute wrapped around my finger.",
+        answers: [
+            { text: "Wildflower – Billie Eilish", correct: false},
+            { text: "Work From Home – Fifth Harmony", correct: false},
+            { text: "Womanizer - Britney Spears", correct: false},
+            { text: "Espresso – Sabrina Carpenter", correct: true},
+        ] 
+    },
+    {
+        question: "Puttin' my defenses up, 'Cause I don't wanna fall in love",
+        answers: [
+            { text: "Heart Attack – Demi Lovato", correct: true},
+            { text: "Ain’t No Love In Oklahoma – Luke Combs", correct: false},
+            { text: "I Can Do It With A Broke Heart – Taylor Swift", correct: false},
+            { text: "Greedy – Tate McRae", correct: false},
+        ] 
+    },
+    {
+        question: " One day when I came home at lunchtime, I heard a funny noise",
+        answers: [
+            { text: "Star Girl- McFly", correct: false},
+            { text: "Year 3000 - Busted", correct: true},
+            { text: "Hypnotised - McFly", correct: false},
+            { text: "Wild Heart – The Vamps", correct: false},
+        ] 
+    },
+    {
+        question: "And I hope I never lose you, hope it never ends, That's the kinda heartbreak time could never mend ",
+        answers: [
+            { text: "Stars Dance – Selena Gomez", correct: false},
+            { text: "Euphoria - Lorde", correct: false},
+            { text: "Rolling In The Deep - Adele", correct: false},
+            { text: "Cornelia Street – Taylor Swift", correct: true,}
+        ] 
+    },
+    {
+        question: "Tonight we'll dance, I'll be yours and you'll be mine, We won't look back, Take my hand and we will shine",
+        answers: [
+            { text: "Dancing In The Dark - Rihanna", correct: false},
+            { text: "Wild Heart - The Vamps", correct: true},
+            { text: "Stick Season - Noah Kahan", correct: false},
+            { text: "Lover – Taylor Swift", correct: false},
+        ] 
+    },
+    {
+        question: "Baby, I'm dancing in the dark, With you between my arms, Barefoot on the grass, Listening to our favorite song",
+        answers: [
+            { text: "Round & Round – Selena Gomez", correct: false},
+            { text: "Wildflower - Billie Eilish", correct: false},
+            { text: "Easy On Me - Adele", correct: false},
+            { text: "Pefect – Ed Sheeran", correct: true,}
+        ] 
+    },
 ];
 
 //*Declare Variables
@@ -115,6 +205,7 @@ function startQuiz(){
     rulesButton.classList.add("hide");
     questionContainer.classList.remove("hide");
     shuffleQuiz(questions);
+    questions.splice(10, questions.length - 10);
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
@@ -123,7 +214,7 @@ function startQuiz(){
     document.getElementById('num-of-num').innerHTML = `Question ${numOfNum} of ${questions.length}`;
 }
 
-// Shuffle the quiz questions aray
+// Function to shuffle the quiz questions array. This is called in the startQuiz function to shuffle the order of the questions for each new quiz
 function shuffleQuiz(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
