@@ -95,7 +95,9 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
 * #### Colour Scheme
     The idea for the colour scheme is to keep it fresh and bright, whilst also being easy to read and understand. I wanted it to still be in keeping with the fun nature of the pop music genre which the quiz is based upon.
     
-    The background image used is clean and minimalistic, whilst also being colourful. The main colours used were chosen to tie in with and compliment the background image, as it has lots of complimentary colours which creates an overall cohesive and pleasing aesthetic. 
+    The background image used is clean and minimalistic, whilst also being colourful. The main colours used were chosen to tie in with and compliment the background image, as it has lots of complimentary colours which creates an overall cohesive and pleasing aesthetic.
+
+    Some colours also have an opacity value, which softens the colours and leans into the minimal design.
 
     ![Colour Palette](assets/docs/design-wireframes/MS2-colour-palette.png)
 
