@@ -202,7 +202,7 @@ As previously mentioned, I had to downscale the features that I wanted to includ
 
 *    Username and leader board for the top 10 players. This would include their scores and the time it had taken to complete the quiz.
 
-*   Contact form where users can send in suggestions for improvements to the quiz. This would be connected to email.js so that when a user submits the form, it is emailed to the developer to act upon.
+*   Contact form where users can send in suggestions for improvements to the quiz. This would be connected to email.js so that when a user submits the form, it is emailed to the developer to act upon. Update: I did try to add this feature; however, I was unable to make it work. More information can be found in the Bugs section.
 
 ## Testing
 
@@ -583,6 +583,8 @@ The quiz website is fully responsive and works well on mobile, tablet and deskto
 4.	  It seems as though the How to Play Modal would not work with the introduction of Bootstrap. I am unsure as to why Bootstrap affected the modal, and with more time, I would have researched this to fix it. Therefore, I made the decision to remove Bootstrap from the project in order to showcase the skills I learnt to create a Modal using JavaScript, instead of using the inbuilt Modal within Bootstrap itself.
 
 5.	  The question counter would not reset back to 1 when the quiz had ended and the Play Again button had been clicked to initiate a new quiz. I reviewed my code as I had added an if statement which resets the question counter - when it gets to question ten, start again at question 1. What I hadn’t realised was, I only had 4 questions in the array as a test case. Once I added in more questions into the array, so there was 10 questions overall, the question counter worked as it should.
+
+6.    I tried to add the feature of Emailjs in a seperate github repo I use as a test environment. However, I could not make this work; I created the form and connect the JS script. When I clicked the "Send Message" button to connect the form, nothing happened. The form was not submitted and I did not recieve an email. I did not have time before the deadline to delve into this deeper, so therefore it was abandoned and not implemented into the final project submission. I really would like to learn more about this in the future.
 
 
 ## Technologies Used
