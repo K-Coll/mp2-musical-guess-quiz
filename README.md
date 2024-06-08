@@ -4,7 +4,7 @@ Welcome to the Musical Guess Quiz! This quiz was created for users to have some 
 
 It has been built using HTML5, CSS3 and JavaScript to allow the user to interact with the website in an engaging way and it was created for the Milestone Project 2 for Code Institute's Diploma in Web Development.
 
-![Responsive Image]() I am Response
+![Responsive Image](assets/docs/validation/am-i-responsive.png)
 
 [Link to Live Website](https://k-coll.github.io/mp2-musical-guess-quiz/)
 
