@@ -34,6 +34,7 @@ It has been built using HTML5, CSS3 and JavaScript to allow the user to interact
   * [Manual Testing](#manual-testing)
     * [Features Testing](#features-testing)
     * [Full Testing on Devices and Browsers](#Full-Testing-on-Devices-and-Browsers) 
+    * [Responsiveness](#responsiveness)
     * [Solved Bugs](#solved-bugs)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
@@ -540,7 +541,7 @@ Testing was carried out by myself, my friends and my family and feedback has gen
   * Mobile
     * iPhone 11
 
-### Responsivity
+### Responsiveness
 The quiz website is fully responsive and works well on mobile, tablet and desktop devices.
 
   * Desktop
