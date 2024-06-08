@@ -484,22 +484,11 @@ Testing was carried out by myself, my friends and my family and feedback has gen
     ![Contrast Checker](assets/docs/validation/contrast-checker-main-body-1.png)   
 
 * ### Lighthouse
-    I tested my quiz website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (search engine optimisation). 
+    I tested my quiz website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (search engine optimisation). I did test my website on both Desktop and Mobile and the results came out as the same.
 
-  * #### Desktop Results
-    The results for the desktop were good.
-
-    <details><summary>Lighthouse - Desktop</summary>
-    <img src="">
+    <details><summary>Lighthouse - Desktop & Mobile</summary>
+    <img src="assets/docs/validation/lighthouse-desktop-mobile.png">
     </details>
-
-  * #### Mobile Results
-   The lighthouse testing results for mobile were good.
-
-    <details><summary>Lighthouse - Mobile</summary>
-    <img src="">
-    </details>
-
 
 * ### HTML Validation
     The W3C HTML Markup Validator was used to validate the HTML code of the website. There was an error for an extra div and the use of the discontinued inline styling to centre the controls divs. Once these bugs were fixed, it returned no errors.
