@@ -572,7 +572,7 @@ The quiz website is fully responsive and works well on mobile, tablet and deskto
     <img src="assets/docs/validation/responsive-mobile-menu.png">     
     </details>
     <details><summary>How to Play Modal</summary>
-    <img src="assets/docs/validation/responsive-mobile-modal.png">     
+    <img src="assets/docs/validation/responsive-mobile-modal-2.png">     
     </details>
     <details><summary>Main Quiz App Area</summary>
     <img src="assets/docs/validation/responsive-mobile-main-quiz-app.png">     
