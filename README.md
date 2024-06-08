@@ -521,6 +521,8 @@ Testing was carried out by myself, my friends and my family and feedback has gen
 | Live Feedback	for right & wrong answers    | Once the answer button is clicked, change background colour of answer buttons for right and wrong answers       | Background colour changes           |
 | Next Button		       | Click to progress to the next question | New question and answers are loaded |
 | Play Again		       | Click to restart the quiz      | Quiz restarts successfully          |
+| Shuffle feature		       | Each time the quiz starts, the questions are shuffled and presented in a different order     | Questions are sucessfully shuffled and are presented in a different order        |
+| Question Bank and Splice feature	       | There is a bank of 20 questions, but only 10 questions are pulled through to the quiz each time    | Only 10 questions are pulled through from the bank of 20 questions        |
 
 
 ### Full Testing on Devices and Browsers
