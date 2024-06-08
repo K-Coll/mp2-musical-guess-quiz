@@ -114,12 +114,21 @@ function startQuiz(){
     startButton.classList.add("hide");
     rulesButton.classList.add("hide");
     questionContainer.classList.remove("hide");
+    shuffleQuiz(questions);
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
     document.getElementById('num-of-num').style.display = 'block';
     document.getElementById('num-of-num').innerHTML = `Question ${numOfNum} of ${questions.length}`;
+}
+
+// Shuffle the quiz questions aray
+function shuffleQuiz(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
 /** 
