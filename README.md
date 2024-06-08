@@ -648,7 +648,8 @@ The quiz website is fully responsive and works well on mobile, tablet and deskto
 ## Credits
 ###  Learning Resources
 * [W3 Schools](https://www.w3schools.com) – used for problem solving.  
-* [Stack Overflow](https://stackoverflow.com)– for troubleshooting issues and problem solving.  
+* [Stack Overflow](https://stackoverflow.com)– for troubleshooting issues and problem solving.
+* [Stack Overflow - How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 * [Code Institute Slack Community](https://slack.com/intl/en-gb) – for problem solving and user feedback.  
 * Code Institute Love Maths Project – for inspiration regarding how to use JavaScript in an application. Putting it into practice helped me understand it more.
 * [Article: Simple Quiz App Using JavaScript & HTML]( https://foolishdeveloper.com/javascript-quiz-app/) – this was helpful in guiding me on how to get started with creating a quiz.  
