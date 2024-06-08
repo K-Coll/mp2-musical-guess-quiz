@@ -122,10 +122,11 @@ function startQuiz(){
     document.getElementById('num-of-num').innerHTML = `Question ${numOfNum} of ${questions.length}`;
 }
 
-//* Function to show the question number with a full stop to add visual structure and feedback for user to know which question they are on.
-//* Function also used to increase the question index and bring in the next question. This also shows the answer options to choose from.
-//* Function will also check to see if the answer is true or false from the dataset held within the questions array
-
+/** 
+* Function to show the question number with a full stop to add visual structure and feedback for user to know which question they are on.
+* Function also used to increase the question index and bring in the next question. This also shows the answer options to choose from.
+* Function will also check to see if the answer is true or false from the dataset held within the questions array
+*/ 
 function showQuestion(){
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -147,8 +148,10 @@ function showQuestion(){
     });
 }
 
-//* Function to reset and remove all previous question and answer options.
-//* This is called in the showQuestions function, in order to reset the html elements to then bring in the new questions and answers
+/**
+* Function to reset and remove all previous question and answer options.
+* This is called in the showQuestions function, in order to reset the html elements to then bring in the new questions and answers
+*/
 function resetState(){
     nextButton.style.display = "none";
     while(answerButtons.firstChild){
@@ -156,13 +159,14 @@ function resetState(){
     }
 }
 
-//* Function to select answer. Click on answer button, it will add selected button element then it will check selected button dataset.
-//* If the data set is true, it will add class name of correct. If the dataset is not true / false, it will add the class name of incorrect.
-//* Backgound colour will then be added depending on class name - in css
-//* For each button, it will check the dataset to see if it is true / false. Then afterwards it will disable ability to click on different buttons
-//* If answer is correct, it will also increase the score by 1
-//* It will then display the next button to move to the next question in the quiz
-
+/**
+* Function to select answer. Click on answer button, it will add selected button element then it will check selected button dataset.
+* If the data set is true, it will add class name of correct. If the dataset is not true / false, it will add the class name of incorrect.
+* Backgound colour will then be added depending on class name - in css
+* For each button, it will check the dataset to see if it is true / false. Then afterwards it will disable ability to click on different buttons
+* If answer is correct, it will also increase the score by 1
+* It will then display the next button to move to the next question in the quiz
+*/
 function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -181,8 +185,10 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
-//* Function to show the score
-//* Function also hides the question counter
+/**
+* Function to show the score
+* Function also hides the question counter
+*/
 function showScore(){
     resetState();
     questionElement.innerHTML = `Well done for completing the quiz! <br><br> You answered ${score} out of ${questions.length} questions correctly!`;
@@ -192,9 +198,11 @@ function showScore(){
     document.getElementById('num-of-num').style.display = 'none';
 }
 
-//* Function includes if statement for if there is another question in the list, it will display this. Otherwise, if there are no more questions, it will display the score if at the end of the quiz
-//* Function increases question counter by 1 for each question within the array.
-//* Function includes if statement which resets the question counter - when it gets to question ten, start again at question 1. Quiz only has 10 questions, so when the user restarts, it will reset the question counter back to 1 of 10.
+/**
+* Function includes if statement for if there is another question in the list, it will display this. Otherwise, if there are no more questions, it will display the score if at the end of the quiz
+* Function increases question counter by 1 for each question within the array.
+* Function includes if statement which resets the question counter - when it gets to question ten, start again at question 1. Quiz only has 10 questions, so when the user restarts, it will reset the question counter back to 1 of 10.
+*/
 function handleNextButton(){
     numOfNum++;
     if (numOfNum > 10) {
