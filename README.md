@@ -549,6 +549,40 @@ Testing was carried out by myself, my friends and my family and feedback has gen
   * Mobile
     * iPhone 11
 
+### Responsivity
+The quiz website is fully responsive and works well on mobile, tablet and desktop devices.
+
+  * Desktop
+    <details><summary>Menu</summary>
+    <img src="assets/docs/validation/responsive-desktop-menu.png">     
+    </details>
+    <details><summary>How to Play Modal</summary>
+    <img src="assets/docs/validation/responsive-desktop-modal.png">     
+    </details>
+    <details><summary>Main Quiz App Area</summary>
+    <img src="assets/docs/validation/responsive-desktop-main-quiz-app.png">     
+    </details>
+    <details><summary>Results</summary>
+    <img src="assets/docs/validation/responsive-desktop-results.png">     
+    </details>
+    <br>
+
+  * Mobile
+    <details><summary>Menu</summary>
+    <img src="assets/docs/validation/responsive-mobile-menu.png">     
+    </details>
+    <details><summary>How to Play Modal</summary>
+    <img src="assets/docs/validation/responsive-mobile-modal.png">     
+    </details>
+    <details><summary>Main Quiz App Area</summary>
+    <img src="assets/docs/validation/responsive-mobile-main-quiz-app.png">     
+    </details>
+    <details><summary>Results</summary>
+    <img src="assets/docs/validation/responsive-mobile-results.png">     
+    </details>
+    <br>
+
+
 
 ### Solved Bugs
 1.	When I implemented the quiz menu start and how to play buttons, I had placed the controls area div within the questions container div that I had added the class of “hide” to; when I tested the menu the control buttons were therefore hidden. I reviewed my code and discovered this. To rectify this, I moved the controls div outside of the questions container. In the end, the controls div did not have the class of hide and were displayed when the website was loaded. 
