@@ -137,7 +137,7 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
   <br>
 
 * ### Main Quiz Area 
-  * This is a box that has a pink background with opacity, so the background image is visible. It houses the following elements: the menu controls, the question counter, the actual quiz question / lyrics, the answer options to choose from and the next button. The questions are shuffled and presented in a different order each time you start the quiz. It also displays the results of the quiz once it is completed and the play again button. User Stories covered: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. There are mutliple screenshots to show case this, which is why I've used the toggle option below:
+  * This is a box that has a pink background with opacity, so the background image is visible. It houses the following elements: the menu controls, the question counter, the actual quiz question / lyrics, the answer options to choose from and the next button. There is a bank of 20 questions, but the quiz only pulls through 10 questions at a time for each quiz. There is also a shuffle feature, so the order of the questions is different each time. This provides variety for the users so the don't get bored if they want to play again. It also displays the results of the quiz once it is completed and the play again button. User Stories covered: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. There are mutliple screenshots to show case this, which is why I've used the toggle option below:
 
   <details><summary>Menu Controls</summary>
   <img src="assets/docs/features/feature-menu-controls.png">     
@@ -196,13 +196,13 @@ The Musical Guess Quiz presents lyrics from a well-known pop songs, and allows u
 
 As previously mentioned, I had to downscale the features that I wanted to include and it would be nice to add in these elements and functionality.
 
-*   Question bank and shuffle feature. Ideally, I would like to implement a bank of 20 – 30 questions. I would then shuffle the questions in the bank and only pull out 10 questions into the quiz itself for the user to answer. This would add more engagement and variety to the quiz, so each time the user plays it is different and they don’t get bored. Update: I was able to add the shuffle questions feature.
-
 *   Timer. The user would have 90 seconds to answer 10 questions and the timer itself would start at 90s and count backwards; this would add some suspense to the quiz. If the user had not completed the quiz before the time ran out, as message would pop up and advise them of this. It would then display the results page with how many questions they answered correctly and the time it took them to complete the quiz.
 
 *    Username and leader board for the top 10 players. This would include their scores and the time it had taken to complete the quiz.
 
 *   Contact form where users can send in suggestions for improvements to the quiz. This would be connected to email.js so that when a user submits the form, it is emailed to the developer to act upon. Update: I did try to add this feature; however, I was unable to make it work. More information can be found in the Bugs section.
+
+*   Question bank and shuffle feature. Ideally, I would like to implement a bank of 20 – 30 questions. I would then shuffle the questions in the bank and only pull out 10 questions into the quiz itself for the user to answer. This would add more engagement and variety to the quiz, so each time the user plays it is different and they don’t get bored. Update: I was able to add the shuffle questions feature. Update: I was able to successfully implement this feature.
 
 ## Testing
 
