@@ -486,9 +486,7 @@ Testing was carried out by myself, my friends and my family and feedback has gen
 * ### Lighthouse
     I tested my quiz website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (search engine optimisation). I did test my website on both Desktop and Mobile and the results came out as the same.
 
-    <details><summary>Lighthouse - Desktop & Mobile</summary>
-    <img src="assets/docs/validation/lighthouse-desktop-mobile.png">
-    </details>
+    ![Lighthouse - Desktop & Mobile](assets/docs/validation/lighthouse-desktop-mobile.png)
 
 * ### HTML Validation
     The W3C HTML Markup Validator was used to validate the HTML code of the website. There was an error for an extra div and the use of the discontinued inline styling to centre the controls divs. Once these bugs were fixed, it returned no errors.
@@ -503,9 +501,9 @@ Testing was carried out by myself, my friends and my family and feedback has gen
 * ### JSHint Validation
     The JSHint Validator was used to test the JavaScript code of the website. There was a warning for an omitted semi colon within the How to Play modal. Once this bug was fixed and the semi colon was added, it returned no errors.
 
-    ![JSHint Validator - Script.js]() 
+    ![JSHint Validator - Script.js](assets/docs/validation/jshint-validation-script.png) 
 
-    ![JSHint Validator - Modal.js]() 
+    ![JSHint Validator - Modal.js](assets/docs/validation/jshint-validation-modal.png) 
 
 ## Manual Testing
 
