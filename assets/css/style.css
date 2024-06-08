@@ -162,3 +162,16 @@ body {
 .incorrect{
     background-color: #fa9187;
 }
+
+/* Media Queries */
+@media(min-width: 320px) {
+    .modal {
+        max-width: 30ch;
+    }
+}
+
+@media(min-width: 768px) {
+    .modal {
+        max-width: 60ch;
+    }
+}
